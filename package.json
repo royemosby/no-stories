@@ -1,0 +1,29 @@
+{
+  "name": "rp",
+  "version": "1.0.0",
+  "description": "reasonable people, inc website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "npx @11ty/eleventy --serve & gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egomadking/rp.git"
+  },
+  "author": "Roy Mosbu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egomadking/rp/issues"
+  },
+  "homepage": "https://github.com/egomadking/rp#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {}
+}

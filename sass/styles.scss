@@ -1,0 +1,75 @@
+@import "defaults/normalize";
+@import "defaults/border-box";
+@import "theme";
+
+/* BEGIN DEFAULTS */
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 150px auto 150px;
+  height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+/*Base components*/
+/*Header*/
+header {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+
+  & h1 {
+    margin-left: 1em;
+  }
+}
+
+nav {
+  & ul {
+    list-style: none;
+    padding: 1em;
+  }
+}
+
+/*End header*/
+
+/*Main*/
+main {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+/*End main*/
+
+/*Footer*/
+footer {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+/*End footer*/
+/*End base components*/
+/* END DEFAULTS */
+@import "index";
