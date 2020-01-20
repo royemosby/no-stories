@@ -1,7 +1,7 @@
 {
   "name": "rp",
   "version": "1.0.0",
-  "description": "reasonable people, inc website",
+  "description": "no-stories",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egomadking/rp.git"
+    "url": "git+https://github.com/egomadking/no-stories.git"
   },
-  "author": "Roy Mosbu",
+  "author": "Roy Mosby",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egomadking/rp/issues"
+    "url": "https://github.com/egomadking/no-stories/issues"
   },
-  "homepage": "https://github.com/egomadking/rp#readme",
+  "homepage": "https://github.com/egomadking/no-stories#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "gulp": "^4.0.2",
