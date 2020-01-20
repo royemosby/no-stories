@@ -1,5 +1,74 @@
 /*  BEGIN INDEX */
 
+.center {
+  border-color: $base-color;
+  border-top: 4px solid;
+  margin: 0 1em 1em 1em;
+  padding: 1em 2em;
+  text-align: center;
+  & span {
+    font-family: $font-display;
+    font-size: 1.5em;
+  }
+}
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-color: $base-color;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  margin: 0 1em 1em 1em;
+  padding: 1em 2em;
+  & span {
+    font-family: $font-sub-heading;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.1rem;
+    margin: 0;
+  }
+  & h1 {
+    padding: 0.1rem;
+    margin: 0;
+  }
+  & p {
+    padding: 0.1rem;
+    margin: 0;
+    text-align: left;
+  }
+}
+@media screen and(min-width: $breakpoint-desktop) {
+  .center {
+    margin: 2em 3em 1em 3em;
+    padding: 1em 2em;
+    & span {
+      font-size: 2em;
+    }
+  }
+  article {
+    display: grid;
+    grid-template-columns: 180px auto auto;
+    align-items: start;
+    margin: 0 8em 1em 8em;
+    padding: 1em 2em;
+    & span {
+      font-size: 2em;
+      padding: 1rem;
+      margin: 0;
+    }
+    & h1 {
+      padding: 1rem;
+      margin: 0;
+    }
+    & p {
+      padding: 1rem;
+      margin: 0;
+      text-align: right;
+    }
+  }
+}
 
 /*  END INDEX */
