@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include head %}
+
+  <body>
+    {% include ie9 %}
+    <header>{% include header %}</header>
+    <main>
+      <h1>{{ title }}</h1>
+      <span class="sub-heading"
+        >Last edited: {{ page.date | date: '%a, %b %d, %Y' }}</span
+      >
+      <div class="attrib">
+        <!--Look into shortcodes-->
+        {% if sourceTitle %}
+        <span class="sub-heading"
+          >Souce: <a href="{{ sourceURL }}">{{ sourceTitle }}</a></span
+        >
+        <span class="sub-heading"
+          >License:
+          <a href="{{ sourceLicense.URL }}">{{
+            sourceLicense.license
+          }}</a></span
+        >
+        {% endif %}
+      </div>
+      {{ content }}
+    </main>
+    <footer>
+      {% include footer %}
+    </footer>
+    <script src="/scripts/app.js" defer></script>
+  </body>
+</html>
