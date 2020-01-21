@@ -1,7 +1,6 @@
 ---
 title: waffles
 date: Last Modified
-layout: entry
 description: Family waffle recipe. Comfortably serves 4 with a few left over
 tags: ['breakfast', 'waffles', 'quick leavened']
 ---

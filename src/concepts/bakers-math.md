@@ -1,9 +1,7 @@
 ---
 title: "bread baker's math"
 date: Last Modified
-layout: entry.liquid
 description: Pancakes enough to feed 4 people with enough for leftovers
-tags: ['breakfast', 'pancakes', 'quick leavened']
 sourceTitle: 'The Fresh Loaf'
 sourceURL: 'http://www.thefreshloaf.com/handbook/baker039s-math'
 sourceLicense:

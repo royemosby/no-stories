@@ -1,7 +1,6 @@
 ---
 title: pancakes
 date: Last Modified
-layout: entry
 description: Pancakes enough to feed 4 people with enough for leftovers
 tags: ['breakfast', 'pancakes', 'quick leavened']
 ---
