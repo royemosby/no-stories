@@ -2,35 +2,22 @@
 layout: default
 title: Home
 description: Recipes up front and ready to use. No stories to plow through to get to the meat and mashed potatoes.
+pagination:
+  data: collections.posts
+  size: 15
+  reverse: true
+  alias: posts
 ---
 
 <div class="center">
-  <span>Recent recipes</span>
+  <span>Recent entries</span>
 </div>
-<article>
-  <span>Date</span>
-  <h1>Article Title</h1>
-  <p>
-    Duis magna dolore ut reprehenderit amet commodo esse. Occaecat pariatur
-    magna qui elit nisi nulla qui. Cillum qui dolor tempor labore dolore Lorem
-    ipsum tempor.
-  </p>
-</article>
-<article>
-  <span>Date</span>
-  <h1>Kitchen Glossary</h1>
-  <p>
-    Duis magna dolore ut reprehenderit amet commodo esse. Occaecat pariatur
-    magna qui elit nisi nulla qui. Cillum qui dolor tempor labore dolore Lorem
-    ipsum tempor.
-  </p>
-</article>
-<article>
-  <span>Date</span>
-  <h1>Slow Cooker Al Pastor Tacos</h1>
-  <p>
-    Duis magna dolore ut reprehenderit amet commodo esse. Occaecat pariatur
-    magna qui elit nisi nulla qui. Cillum qui dolor tempor labore dolore Lorem
-    ipsum tempor.
-  </p>
-</article>
+{% for post in posts %}
+<a href="{{ post.url}}" class="card">
+  <article>
+    <span>{{ post.date | date: '%a, %b %d, %Y' }}</span>
+    <h1>{{ post.data.title }}</h1>
+    <p>{{ post.data.description }}</p>
+  </article>
+</a>
+{% endfor %}

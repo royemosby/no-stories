@@ -1,10 +1,23 @@
 ---
 layout: default
 title: concepts
-description: recipe directory on NOSTORIES
+description: concept directory on NOSTORIES
+pagination:
+  data: collections.concepts
+  size: 15
+  reverse: true
+  alias: concepts
 ---
 
-<h1>{{title}}</h1>
-<span class="sub-heading">Last updated (sometime)</span>
-<a href="kitchen-glossary/index.html">Kitchen Glossary</a>
-<a href="bakers-math/index.html">Bread Baker's Math</a>
+<div class="center">
+  <span>Recent concepts</span>
+</div>
+{% for concept in concepts %}
+<a href="{{ concept.url}}" class="card">
+  <article>
+    <span>{{ concept.date | date: '%a, %b %d, %Y' }}</span>
+    <h1>{{ concept.data.title }}</h1>
+    <p>{{ concept.data.description }}</p>
+  </article>
+</a>
+{% endfor %}
