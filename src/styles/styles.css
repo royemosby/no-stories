@@ -445,6 +445,10 @@ footer {
     font-family: "Open Sans", san-serif;
     font-size: 1.5em; }
 
+.card {
+  color: #2b298d;
+  text-decoration: none; }
+
 article {
   display: flex;
   flex-direction: column;
@@ -457,12 +461,13 @@ article {
   padding: 1em 2em; }
   article span {
     font-family: "Source Code Pro", monospace;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
     padding: 0.1rem;
     margin: 0; }
   article h1 {
+    font-size: 1.5em;
     padding: 0.1rem;
     margin: 0; }
   article p {
@@ -478,12 +483,12 @@ article {
       font-size: 2em; }
   article {
     display: grid;
-    grid-template-columns: 180px auto auto;
+    grid-template-columns: 330px auto auto;
     align-items: start;
     margin: 0 8em 1em 8em;
     padding: 1em 2em; }
     article span {
-      font-size: 2em;
+      font-size: 1.5em;
       padding: 1rem;
       margin: 0; }
     article h1 {

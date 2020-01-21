@@ -12,6 +12,11 @@
   }
 }
 
+.card {
+  color: $base-color;
+  text-decoration: none;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -24,13 +29,14 @@ article {
   padding: 1em 2em;
   & span {
     font-family: $font-sub-heading;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
     padding: 0.1rem;
     margin: 0;
   }
   & h1 {
+    font-size: 1.5em;
     padding: 0.1rem;
     margin: 0;
   }
@@ -50,12 +56,12 @@ article {
   }
   article {
     display: grid;
-    grid-template-columns: 180px auto auto;
+    grid-template-columns: 330px auto auto;
     align-items: start;
     margin: 0 8em 1em 8em;
     padding: 1em 2em;
     & span {
-      font-size: 2em;
+      font-size: 1.5em;
       padding: 1rem;
       margin: 0;
     }
