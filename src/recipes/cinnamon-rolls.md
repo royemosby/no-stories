@@ -5,7 +5,7 @@ description: Good overnight recipe that makes rolls enough to fill a 9" by 13" t
 tags: ['dessert', 'cinnamon rolls', 'yeast leavened']
 ---
 
-## Rolls
+## Ingredients
 
 ### Dry
 
