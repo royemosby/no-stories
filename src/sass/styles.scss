@@ -8,12 +8,23 @@ html {
 }
 
 body {
+  background-color: $bg-color;
   color: $base-color;
   display: grid;
   font-size: $base-font-size;
   grid-template-rows: 150px auto auto;
   font-family: $font-body;
+  justify-items: center;
   min-height: 100vh;
+}
+
+a {
+  color: $base-color;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  &:hover {
+    color: lighten($base-color, 30%);
+  }
 }
 
 h1,
@@ -22,10 +33,23 @@ h3,
 h4,
 h5,
 h6 {
+  //margin-top: 0;
   font-family: $font-display;
   text-transform: uppercase;
 }
 
+h3 {
+  margin-bottom: 0.5em;
+}
+
+main dd ul {
+  margin-top: 0.5em;
+}
+
+dd,
+p {
+  line-height: 1.5em;
+}
 .sub-heading {
   font-family: $font-sub-heading;
   margin-bottom: 0.5em;
@@ -40,17 +64,10 @@ header {
   background-color: darken($bg-color, 5%);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  & a {
-    color: $base-color;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    &:hover {
-      color: lighten($base-color, 35%);
-    }
-  }
-
+  width: 100%;
   & .site-name {
     font-size: 2em;
     font-weight: bold;
@@ -85,12 +102,37 @@ nav {
 
 /*Main*/
 main {
-  background-color: $bg-color;
+  //background-color: $bg-color;
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
   //justify-content: center;
+  max-width: 900px;
   padding: 1em;
+  & ul {
+    margin-top: 0;
+    & li {
+      margin-bottom: 0.75em;
+    }
+  }
+  & ol {
+    & li {
+      margin-bottom: 0.75em;
+      line-height: 1.75em;
+    }
+  }
+}
+
+.center {
+  border-color: $base-color;
+  border-top: 4px solid;
+  margin: 0 1em 1em 1em;
+  padding: 1em 2em;
+  text-align: center;
+  & span {
+    font-family: $font-display;
+    font-size: 1.5em;
+  }
 }
 
 /*End main*/
@@ -99,6 +141,7 @@ main {
 footer {
   align-items: center;
   background-color: darken($bg-color, 5%);
+  width: 100%;
 
   & .micro {
     font-size: 0.3em;
@@ -117,16 +160,8 @@ footer {
       width: 100px;
     }
   }
-  & a {
-    color: $base-color;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    &:hover {
-      color: lighten($base-color, 35%);
-    }
-  }
 }
-@media screen and (max-width: $breakpoint-tablet) {
+@media screen and (max-width: $breakpoint-tablet - 1) {
   nav {
     li:first-child::after,
     li:nth-child(2)::after {
@@ -157,6 +192,9 @@ footer {
   }
 }
 @media screen and (min-width: $breakpoint-desktop) {
+  main {
+    max-width: 1275px;
+  }
 }
 
 /*End footer*/
