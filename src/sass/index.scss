@@ -1,17 +1,5 @@
 /*  BEGIN INDEX */
 
-.center {
-  border-color: $base-color;
-  border-top: 4px solid;
-  margin: 0 1em 1em 1em;
-  padding: 1em 2em;
-  text-align: center;
-  & span {
-    font-family: $font-display;
-    font-size: 1.5em;
-  }
-}
-
 .card {
   color: $base-color;
   text-decoration: none;
