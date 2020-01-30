@@ -12,7 +12,7 @@ pagination:
 <div class="center">
   <span>Recent concepts</span>
 </div>
-{% for concept in concepts %}
+{% for concept in concepts %} {% if concept.url != false %}
 <a href="{{ concept.url}}" class="card">
   <article>
     <span>{{ concept.date | date: '%a, %b %d, %Y' }}</span>
@@ -20,4 +20,4 @@ pagination:
     <p>{{ concept.data.description }}</p>
   </article>
 </a>
-{% endfor %}
+{% endif %} {% endfor %}

@@ -4,7 +4,7 @@ title: Home
 description: Recipes up front and ready to use. No stories to plow through to get to the meat and mashed potatoes.
 pagination:
   data: collections.posts
-  size: 15
+  size: 10
   reverse: true
   alias: posts
 ---
@@ -12,7 +12,7 @@ pagination:
 <div class="center">
   <span>Recent entries</span>
 </div>
-{% for post in posts %}
+{% for post in posts %} {% if post.url != false %}
 <a href="{{ post.url}}" class="card">
   <article>
     <span>{{ post.date | date: '%a, %b %d, %Y' }}</span>
@@ -20,4 +20,4 @@ pagination:
     <p>{{ post.data.description }}</p>
   </article>
 </a>
-{% endfor %}
+{% endif %} {% endfor %}
