@@ -1,16 +1,24 @@
-/*  BEGIN THEME  */
+/*  BEGIN Variables  */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Condensed|Source+Code+Pro&display=swap');
+
+$base-color: rgb(54, 34, 31);
+$bg-color: rgb(255, 255, 255);
+$bg-darker: rgb(236, 229, 228);
 
 $font-display: 'Open Sans', san-serif;
 $font-sub-heading: 'Source Code Pro', monospace;
 $font-body: 'Open Sans', san-serif;
 
-$base-font-size: 18px;
-$base-color: #2c2b4d;
-//$base-color: #2b298d;
-$bg-color: rgb(243, 242, 234);
+$font-base-size: 18px;
 
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1440px;
 
-/*  END THEME  */
+@mixin card-border {
+  border-color: $base-color;
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+}
+
+/*  END Variables  */

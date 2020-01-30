@@ -1,3 +1,10 @@
+.sub-heading {
+  font-family: $font-sub-heading;
+  margin-bottom: 0.5em;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+
 .attrib {
   & span {
     display: block;

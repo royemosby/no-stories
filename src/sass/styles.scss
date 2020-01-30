@@ -1,6 +1,6 @@
 @import 'defaults/normalize';
 @import 'defaults/border-box';
-@import 'theme';
+@import 'variables';
 
 /* BEGIN DEFAULTS */
 html {
@@ -10,9 +10,10 @@ html {
 body {
   background-color: $bg-color;
   color: $base-color;
-  display: grid;
-  font-size: $base-font-size;
-  grid-template-rows: 150px auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: $font-base-size;
   font-family: $font-body;
   justify-items: center;
   min-height: 100vh;
@@ -41,46 +42,41 @@ h6 {
 h3 {
   margin-bottom: 0.5em;
 }
-
-main dd ul {
-  margin-top: 0.5em;
-}
-
-dt {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-dd,
-p {
-  line-height: 1.5em;
-}
-.sub-heading {
-  font-family: $font-sub-heading;
-  margin-bottom: 0.5em;
-  padding-left: 1rem;
-  text-transform: uppercase;
-}
+/* END DEFAULTS */
 
 /*Base components*/
-/*Header*/
 
+/*Header*/
 header {
-  background-color: darken($bg-color, 5%);
+  background-color: $bg-darker;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px 5px;
   align-items: center;
   width: 100%;
   & .site-name {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: 2px solid $bg-color;
   }
   & .micro {
+    height: 20px;
     font-size: 0.3em;
+    display: inline-block;
+    transform-origin: center;
+    transform: rotate(-20deg) translate(0.4em, -0.6em);
+    &::before {
+      content: '-';
+    }
+    &::after {
+      content: '-';
+    }
   }
 }
 
@@ -88,17 +84,18 @@ nav {
   & ul {
     display: flex;
     flex-flow: row;
-    align-items: flex-end;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     font-family: $font-display;
     font-size: 1.3em;
     font-weight: bold;
     text-transform: uppercase;
     list-style: none;
-    margin: 1em;
+    margin: 1em 0 0 0;
     padding: 0;
     & li {
-      margin-bottom: 0.3em;
+      margin-bottom: 0.6em;
     }
   }
 }
@@ -106,6 +103,19 @@ nav {
 /*End header*/
 
 /*Main*/
+
+.center {
+  border-color: $base-color;
+  border-top: 4px solid;
+  margin: 0 1em 1em 1em;
+  padding: 1em 2em;
+  text-align: center;
+  & span {
+    font-family: $font-display;
+    font-size: 1.5em;
+  }
+}
+
 main {
   //background-color: $bg-color;
   display: flex;
@@ -128,24 +138,16 @@ main {
   }
 }
 
-.center {
-  border-color: $base-color;
-  border-top: 4px solid;
-  margin: 0 1em 1em 1em;
-  padding: 1em 2em;
-  text-align: center;
-  & span {
-    font-family: $font-display;
-    font-size: 1.5em;
-  }
-}
-
 /*End main*/
 
 /*Footer*/
+
 footer {
   align-items: center;
-  background-color: darken($bg-color, 5%);
+  background-color: $bg-darker;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
   width: 100%;
 
   & .micro {
@@ -165,35 +167,47 @@ footer {
       width: 100px;
     }
   }
+  & nav {
+    & ul {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+  }
 }
 @media screen and (max-width: $breakpoint-tablet - 1) {
-  nav {
+  .header-menu {
     li:first-child::after,
-    li:nth-child(2)::after {
-      content: '|';
+    li:nth-child(2)::after,
+    li:nth-child(3)::after {
+      content: '·';
+      margin: 2px;
+    }
+    li:last-child {
+      margin: 0;
     }
   }
 }
 @media screen and (min-width: $breakpoint-tablet) {
-  body {
-    grid-template-rows: 150px auto 150px;
-  }
   header {
     flex-direction: row;
+    flex-wrap: nowrap;
     & .site-name {
+      border-bottom: none;
       font-size: 3em;
       margin-left: 1em;
       text-align: left;
+    }
+    li:last-child {
+      margin: 0;
     }
   }
   nav {
     & ul {
       flex-flow: column;
+      align-items: flex-end;
+      margin: 0;
     }
-  }
-  footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media screen and (min-width: $breakpoint-desktop) {
@@ -205,5 +219,6 @@ footer {
 /*End footer*/
 /*End base components*/
 /* END DEFAULTS */
-@import 'index';
+@import 'article-list';
 @import 'posts';
+@import 'glossary';
