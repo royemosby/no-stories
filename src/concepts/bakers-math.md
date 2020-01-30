@@ -1,7 +1,7 @@
 ---
 title: "bread baker's math"
 date: Last Modified
-description: Pancakes enough to feed 4 people with enough for leftovers
+description: Fomulas used to discuss ingredient ratios in bread-making
 sourceTitle: 'The Fresh Loaf'
 sourceURL: 'http://www.thefreshloaf.com/handbook/baker039s-math'
 sourceLicense:
