@@ -1,0 +1,31 @@
+main dd ul {
+  margin-top: 0.5em;
+}
+
+dt {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dd,
+p {
+  line-height: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dt {
+  @include card-border;
+  padding: 10px 0 0 10px;
+  font-size: 1.2em;
+}
+
+dd {
+  border-left: 3px solid $base-color;
+  border-right: 3px solid $base-color;
+  margin: 0 0 1em 0;
+  padding: 0 40px;
+}
