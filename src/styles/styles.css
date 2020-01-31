@@ -332,6 +332,7 @@ body {
 a {
   color: #36221f;
   text-decoration: none;
+  transition-property: color;
   transition-duration: 0.2s; }
   a:hover {
     color: #975f57; }
