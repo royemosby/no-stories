@@ -14,7 +14,7 @@ pagination:
 </div>
 {% for post in posts %} {% if post.url != false %}
 <a href="{{ post.url}}" class="card">
-  <article>
+  <article class="home">
     <span>{{ post.date | date: '%a, %b %d, %Y' }}</span>
     <h1>{{ post.data.title }}</h1>
     <p>{{ post.data.description }}</p>
