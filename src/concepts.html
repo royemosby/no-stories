@@ -15,9 +15,8 @@ pagination:
 {% for concept in concepts %} {% if concept.url != false %}
 <a href="{{ concept.url}}" class="card">
   <article>
-    <span>{{ concept.date | date: '%a, %b %d, %Y' }}</span>
     <h1>{{ concept.data.title }}</h1>
-    <p>{{ concept.data.description }}</p>
+    <span>{{ concept.date | date: '%a, %b %d, %Y' }}</span>
   </article>
 </a>
 {% endif %} {% endfor %}
