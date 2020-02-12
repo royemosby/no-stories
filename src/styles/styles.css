@@ -509,6 +509,32 @@ article {
     margin: 0;
     text-align: left; }
 
+@media screen and (min-width: 768px) {
+  .center {
+    margin: 2em 3em 1em 3em;
+    padding: 1em 2em; }
+    .center span {
+      font-size: 2em; }
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    margin: 0 8em 1em 8em;
+    padding: 0em 2em; }
+    article span {
+      padding: 0.5rem;
+      margin: 0; }
+    article h1 {
+      font-size: 1.2em;
+      padding: 0.5rem;
+      margin: 0; }
+    article p {
+      padding: 1rem;
+      margin: 0;
+      text-align: right; }
+    article.home {
+      grid-template-columns: 120px auto auto; } }
+
 @media screen and (min-width: 1440px) {
   .center {
     margin: 2em 3em 1em 3em;
@@ -517,7 +543,6 @@ article {
       font-size: 2em; }
   article {
     display: grid;
-    grid-template-columns: 330px auto auto;
     align-items: start;
     margin: 0 8em 1em 8em;
     padding: 1em 2em; }
@@ -526,12 +551,15 @@ article {
       padding: 1rem;
       margin: 0; }
     article h1 {
+      font-size: 1.5em;
       padding: 1rem;
       margin: 0; }
     article p {
       padding: 1rem;
       margin: 0;
-      text-align: right; } }
+      text-align: right; }
+    article.home {
+      grid-template-columns: 310px auto auto; } }
 
 .sub-heading {
   font-family: "Source Code Pro", monospace;
@@ -571,6 +599,33 @@ dd {
   border-right: 3px solid #36221f;
   margin: 0 0 1em 0;
   padding: 0 40px; }
+
+label[for='name'] {
+  grid-area: name-label; }
+
+label[for='email'] {
+  grid-area: email-label; }
+
+label[for='message'] {
+  grid-area: message-label; }
+
+input[id='name'] {
+  grid-area: name; }
+
+input[id='email'] {
+  grid-area: email; }
+
+#contact {
+  display: grid;
+  grid-template-columns: 100px repeat(3, 1fr);
+  grid-template-areas: 'name-label name name name' 'email-label email email email' 'message-label message message message' 'submit submit submit submit';
+  grid-gap: 0.5em; }
+  #contact button {
+    grid-area: submit;
+    justify-self: center; }
+  #contact textarea {
+    grid-area: message;
+    width: 100%; }
 
 html {
   display: block; }
