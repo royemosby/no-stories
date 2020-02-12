@@ -1,0 +1,42 @@
+label {
+  &[for='name'] {
+    grid-area: name-label;
+  }
+  &[for='email'] {
+    grid-area: email-label;
+  }
+  &[for='message'] {
+    grid-area: message-label;
+  }
+}
+input {
+  &[id='name'] {
+    grid-area: name;
+  }
+  &[id='email'] {
+    grid-area: email;
+  }
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: 100px repeat(3, 1fr);
+  grid-template-areas:
+    'name-label name name name'
+    'email-label email email email'
+    'message-label message message message'
+    'submit submit submit submit';
+  grid-gap: 0.5em;
+  & {
+    button {
+      grid-area: submit;
+      justify-self: center;
+    }
+  }
+  & {
+    textarea {
+      grid-area: message;
+      width: 100%;
+    }
+  }
+}
