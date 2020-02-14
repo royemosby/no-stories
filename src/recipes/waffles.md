@@ -9,15 +9,15 @@ tags: ['breakfast', 'waffles', 'quick leavened']
 
 ### Dry
 
-- 2C flour
-- 2Tbls sugar
-- 1tsp baking powder
-- 1tsp salt
+- 2 c flour
+- 2 tbls sugar
+- 1 tsp baking powder
+- 1 tsp salt
 
 ### Wet
 
-- 1 3/4C milk
-- 6Tbsp oil
+- 1 3/4 c milk
+- 6 tbsp oil
 - 2 eggs + 1 egg white, separated
 
 ## Directions
