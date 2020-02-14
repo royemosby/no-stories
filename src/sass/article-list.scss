@@ -13,6 +13,8 @@ article {
   border-right: 3px solid;
   margin: 0 1em 1em 1em;
   padding: 1em 2em;
+  transition-duration: 0.4s;
+  transition-property: background-color;
   & span {
     font-family: $font-sub-heading;
     font-size: 1em;
@@ -30,6 +32,9 @@ article {
     padding: 0.1rem;
     margin: 0;
     text-align: left;
+  }
+  &:hover {
+    background: linear-gradient(to bottom, lighten($bg-darker, 5%), #ffffff);
   }
 }
 @media screen and(min-width: $breakpoint-tablet) {
