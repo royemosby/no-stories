@@ -335,6 +335,25 @@ a {
   transition-duration: 0.2s; }
   a:hover {
     color: #975f57; }
+  a.current-page {
+    position: relative;
+    z-index: 1; }
+    a.current-page::before {
+      content: '';
+      bottom: 0;
+      display: block;
+      left: -2px;
+      padding: 0 5px 0 5px;
+      position: absolute;
+      height: 50%;
+      width: 100%;
+      background-color: #ddc7c4;
+      /*background: linear-gradient(
+        to bottom,
+        $bg-darker,
+        lighten($base-color, 65%)
+      ); */
+      z-index: -1; }
 
 h1,
 h2,

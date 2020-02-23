@@ -27,6 +27,28 @@ a {
   &:hover {
     color: lighten($base-color, 30%);
   }
+  &.current-page {
+    position: relative;
+    z-index: 1;
+    &::before {
+      content: '';
+      bottom: 0;
+      display: block;
+      left: -2px;
+      padding: 0 5px 0 5px;
+      position: absolute;
+      height: 50%;
+      width: 100%;
+      background-color: lighten($base-color, 65%);
+      /*background: linear-gradient(
+        to bottom,
+        $bg-darker,
+        lighten($base-color, 65%)
+      ); */
+      z-index: -1;
+      //transform: scale(1.05);
+    }
+  }
 }
 
 h1,
