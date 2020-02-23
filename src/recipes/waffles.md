@@ -11,7 +11,7 @@ tags: ['breakfast', 'waffles', 'quick leavened']
 
 - 2 c flour
 - 2 tbls sugar
-- 1 tsp baking powder
+- 1 tbsp baking powder
 - 1 tsp salt
 
 ### Wet
@@ -19,6 +19,7 @@ tags: ['breakfast', 'waffles', 'quick leavened']
 - 1 3/4 c milk
 - 6 tbsp oil
 - 2 eggs + 1 egg white, separated
+- 1 tsp vanilla (omit for savory dishes- fried chicken, etc.)
 
 ## Directions
 
