@@ -27,6 +27,13 @@ article {
     font-size: 1.5em;
     padding: 0.1rem;
     margin: 0;
+    position: relative;
+    & .pushpin {
+      font-size: 0.7em;
+      position: absolute;
+      left: -30px;
+      top: 16px;
+    }
   }
   & p {
     padding: 0.1rem;
@@ -60,6 +67,11 @@ article {
       font-size: 1.2em;
       padding: 0.5rem;
       margin: 0;
+      & .pushpin {
+        font-size: 1em;
+        left: -30px;
+        top: 10px;
+      }
     }
     & p {
       padding: 1rem;
