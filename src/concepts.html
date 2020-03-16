@@ -3,19 +3,22 @@ layout: default
 title: concepts
 description: concept directory on NOSTORIES
 pagination:
-  data: collections.concepts
+  data: collections.conceptsPlusPin
   size: 15
   reverse: true
-  alias: concepts
 ---
 
 <div class="center">
   <span>Recent concepts</span>
 </div>
-{% for concept in concepts %} {% if concept.url != false %}
+{% for concept in collections.conceptsPlusPin %} {% if concept.url != false %}
 <a href="{{ concept.url}}" class="card">
   <article>
-    <h1>{{ concept.data.title }}</h1>
+    <h1>
+      {% if concept.data.tags contains "pinned" %}
+      <span class="pushpin">📌</span>
+      {% endif %} {{ concept.data.title }}
+    </h1>
     <span>{{ concept.date | date: '%a, %b %d, %Y' }}</span>
   </article>
 </a>
