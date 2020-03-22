@@ -27,7 +27,7 @@ a {
   &:hover {
     color: lighten($base-color, 30%);
   }
-  &.current-page {
+  &.current-page:not(.footnote-backref) {
     position: relative;
     z-index: 1;
     &::before {
@@ -190,6 +190,27 @@ main {
     & li {
       margin-bottom: 0.75em;
       line-height: 1.75em;
+    }
+  }
+}
+
+.footnotes {
+  font-size: 0.9em;
+  border-top: 2px solid $bg-darker;
+  &::before {
+    content: 'footnotes:';
+  }
+  & a {
+    color: lighten($base-color, 10%);
+    text-decoration: underline;
+    &:hover {
+      color: lighten($base-color, 50%);
+    }
+    &:active {
+      color: lighten($base-color, 50%);
+    }
+    &.footnote-backref {
+      text-decoration: none;
     }
   }
 }

@@ -335,10 +335,10 @@ a {
   transition-duration: 0.2s; }
   a:hover {
     color: #975f57; }
-  a.current-page {
+  a.current-page:not(.footnote-backref) {
     position: relative;
     z-index: 1; }
-    a.current-page::before {
+    a.current-page:not(.footnote-backref)::before {
       content: '';
       bottom: 0;
       display: block;
@@ -461,6 +461,21 @@ main {
   main ol li {
     margin-bottom: 0.75em;
     line-height: 1.75em; }
+
+.footnotes {
+  font-size: 0.9em;
+  border-top: 2px solid #ece5e4; }
+  .footnotes::before {
+    content: 'footnotes:'; }
+  .footnotes a {
+    color: #563632;
+    text-decoration: underline; }
+    .footnotes a:hover {
+      color: #c19993; }
+    .footnotes a:active {
+      color: #c19993; }
+    .footnotes a.footnote-backref {
+      text-decoration: none; }
 
 /*End main*/
 /*Footer*/
@@ -603,7 +618,7 @@ article {
     margin: 0 8em 1em 8em;
     padding: 1em 2em; }
     article span {
-      font-size: 1.5em;
+      font-size: 1.3em;
       padding: 1rem;
       margin: 0; }
     article h1 {
