@@ -5,6 +5,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/scripts');
   eleventyConfig.setDataDeepMerge(true);
 
+  let markdownIt = require('markdown-it');
+  let markdownItFootnote = require('markdown-it-footnote');
+  let markdownLib = markdownIt().use(markdownItFootnote);
+  eleventyConfig.setLibrary('md', markdownLib);
+
   eleventyConfig.addCollection('conceptsPlusPin', function(collection) {
     let pinned = collection
       .getFilteredByTag('concepts')
@@ -23,14 +28,3 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true,
   };
 };
-
-/*
-module.exports = function(eleventyConfig) {
-  
-  eleventyConfig.addCollection('conceptsPlusPin', function(collection) {
-    let pinned = collection.getFilteredByTagName('concepts').filter(item => item.data.tags === 'pinned');
-    let nonPinned = collection.getFilteredByTagName('concepts').filter(item => item.data.tags !== 'pinned');
-    return [...pinned, ...nonPinned];
-  });
-
-};*/
