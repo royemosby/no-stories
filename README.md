@@ -28,7 +28,7 @@
 ### Current configs
 
 - addPassthruCopy: icons, images, styles, js
-- setDataDeepMerge(true) [11ty's docs](https://www.11ty.dev/docs/data-deep-merge/)
+- setDataDeepMerge(true) [11ty's docs ↗️](https://www.11ty.dev/docs/data-deep-merge/)
 - using markdown-it and markdown-it-footnote
 - customized collection that front-loads pinned material in the concepts section.
 
