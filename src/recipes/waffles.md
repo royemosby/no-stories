@@ -10,7 +10,7 @@ tags: ['breakfast', 'waffles', 'quick leavened']
 ### Dry
 
 - 2 c flour
-- 2 tbls sugar
+- 2 tbsp sugar
 - 1 tbsp baking powder
 - 1 tsp salt
 

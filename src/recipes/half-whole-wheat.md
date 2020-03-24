@@ -33,7 +33,7 @@ tags: ['bread', 'whole wheat', 'sandwich', 'yeast leavened']
 
 ## Instructions
 
-1. Combine water, milk, and brown sugear.
+1. Combine water, milk, and brown sugar.
 2. Add yeast and stir until it dissolves.
 3. After 2-3 minutes, add in honey and oil. Oil will not incorporate but it needs to be poured over the flour at the same time as the rest of the wet. Do not add it before because it will inhibit gluten formation. I need to look into the behavior of the dough when adding the oil in after the wet ingredients.
 4. In a separate bowl use dry whisk to combine salt, AP, and whole wheat.

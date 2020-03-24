@@ -12,7 +12,7 @@ tags: ['lunch', 'dinner', 'pasta', 'dumpling', 'italian', 'potato']
 - 1 tsp salt for dough
 - 2 tbsp salt for cooking water
 - 1 large egg
-- 4 tbsp olive oil (or neutral oil for sautée)
+- 4 tbsp olive oil (or neutral oil for sauté)
 - 1 glass jar marinara of preference
 
 ## Hardware

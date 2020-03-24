@@ -1,6 +1,6 @@
 ---
 title: giardierna
-description: lacto-fermeted vegitables for salad or an antipasto
+description: lacto-fermented vegetables for salad or an antipasto
 tags: ['pickle', 'lactic acid fermentation', 'fermentation', 'vegetables']
 ---
 
@@ -84,6 +84,6 @@ tags: ['pickle', 'lactic acid fermentation', 'fermentation', 'vegetables']
 
 - Less than half of the batch remains- carrots, celery, and beans all still crunchy.
 - The onion is soft but not unpleasantly so.
-- Celery is innoffensive to eat but contributes significantly to the flavor profile of the finished product.
+- Celery is inoffensive to eat but contributes significantly to the flavor profile of the finished product.
 - Any remaining bell pepper or asparagus is removed as giardiniera is pulled out. I need to focus on pickling both of those in isolation to see if I can get them to come out at least firm, if not crunchy.
 - I have purchased pickling salt for my next round of pickling.
