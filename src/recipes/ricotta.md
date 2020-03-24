@@ -1,7 +1,7 @@
 ---
 title: ricotta
 date: Last Modified
-description: Easy means to produce ricotta
+description: Soft, crumbly cheese ready in 15-20 minutes
 tags: ['cheese', 'curdled', 'milk']
 ---
 
@@ -30,4 +30,4 @@ tags: ['cheese', 'curdled', 'milk']
 7. Grab corners of cheese cloth and pull together. This will form a rough ball of the curds.
 8. Suspend above bowl and let drain for 10 minutes. Chopsticks are perfect for this and used by placing them across the bowl and then setting the ricotta ball on top of them. This allows the whey to drip into the bowl freely.
 
-[^options]: One can mix lowfat or fat-free milk with half-and-half to achieve the same resuilts. To make 1 c substitute whole milk, mix 3/8 cup half and half with 5/8 cup fat free milk.
+[^options]: One can mix lowfat or fat-free milk with half-and-half to achieve the same results. To make 1 c substitute whole milk, mix 3/8 cup half and half with 5/8 cup fat free milk.
