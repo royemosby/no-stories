@@ -10,9 +10,9 @@ tags: ['bread', 'buns', 'yeast leavened']
 
 - 2 tsp active dry yeast
 - 2 1/2 tbsp sugar
-- 3 c bread flour
-- 1/3 c all-purpose flour
-- 1 1/2 tsp salt
+- 3 c bread flour (360 gr)
+- 1/3 c all-purpose flour (60 gr)
+- 1 1/2 tsp salt (5.9 gr)
 - 2 1/2 tbsp unsalted butter, softened
 - Sesame seeds (optional)
 
