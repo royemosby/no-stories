@@ -19,7 +19,7 @@
 |-.eleventy.js             ###Eleventy SSG config
 |-.gitignore
 |-gulpfile.js              ###primarily to process scss
-|-LICENSE                  ###all files MIT onless otherwise stated in frontmatter
+|-LICENSE                  ###all files MIT unless otherwise stated in front-matter
 |-package-lock.json
 |-package.json
 |-README.md
@@ -114,7 +114,7 @@ This site nests illustrations inside the list items they support. This allows me
 - Alphabetize glossary
 - Consider search
 - About: this site
-- How to do recipe changelogs?
+- How to do recipe change logs?
 - Optionally link to cited source instead of always (forced to use anchor placeholder)
 - Optionally link to license instead of always
 - tags ftw
