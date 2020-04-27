@@ -56,7 +56,7 @@ Defaults found in their respective data file are shown in place. These terms do 
 ---
 title: //string
 description: //string
-date: Last Modified
+// date: leave blank or provide yyyy-mm-dd to override default date sort
 layout: post.liquid
 tags: ['posts', 'concepts']
 sourceTitle: //optional string
