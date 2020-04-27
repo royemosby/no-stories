@@ -32,7 +32,7 @@ This recipe focuses on the gnocchi itself. Figure out how you want to serve this
 1. Bake potatoes in 400F oven for 1 1/2 hours or until fork tender.
 2. Cut potatoes in half and scoop out their flesh into a medium mixing bowl.
 3. Mash thoroughly then allow to cool until safe to handle with hands.
-4. Mix in salt and ricotta with potato masher.
+4. Mix in salt, egg, and ricotta with potato masher.
 5. Mix in 1 c flour with masher. At this point, the gnocchi dough will start to come together and become impractical to stir except by hand.
 6. Flour hands.
 7. Sprinkle 1-2 tbsp remaining flour over dough and start mixing in by hand. After sprinkled on flour fully incorporates, repeat this step until the dough forms a coherent ball that does not break apart to stick on your fingers. It will still be a little sticky.
