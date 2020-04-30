@@ -393,6 +393,16 @@ button:active {
   position: relative;
   top: 1px; }
 
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+tr:nth-child(even) {
+  background-color: #ece5e4; }
+
+td {
+  border: 1px solid #36221f; }
+
 /* END DEFAULTS */
 /*Base components*/
 /*Header*/

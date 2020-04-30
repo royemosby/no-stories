@@ -104,6 +104,19 @@ button:active {
   top: 1px;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: $bg-darker;
+}
+
+td {
+  border: 1px solid $base-color;
+}
+
 /* END DEFAULTS */
 
 /*Base components*/
