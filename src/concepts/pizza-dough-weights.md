@@ -9,18 +9,18 @@ sourceLicense:
 
 _Sorry mobile! Will work on a responsive table soon._
 
-| AREA           | DIAMETER  |   WEIGHT   | DENSITY         |
-| -------------- | :-------: | :--------: | --------------- |
-| 78 sq in area  | 10" pizza | 176g dough | @ 2.25g/sq. in. |
-| 95 sq in area  | 11" pizza | 213g dough | @ 2.25g/sq. in. |
-| 113 sq in area | 12" pizza | 254g dough | @ 2.25g/sq. in. |
-| 132 sq in area | 13" pizza | 298g dough | @ 2.25g/sq. in. |
-| 153 sq in area | 14" pizza | 344g dough | @ 2.25g/sq. in. |
-| 176 sq in area | 15" pizza | 396g dough | @ 2.25g/sq. in. |
-| 201 sq in area | 16" pizza | 452g dough | @ 2.25g/sq. in. |
-| 222 sq in area | 17" pizza | 500g dough | @ 2.25g/sq. in. |
-| 254 sq in area | 18" pizza | 571g dough | @ 2.25g/sq. in. |
-| 283 sq in area | 19" pizza | 637g dough | @ 2.25g/sq. in. |
-| 314 sq in area | 20" pizza | 706g dough | @ 2.25g/sq. in. |
+| DIAMETER  |      AREA      |   WEIGHT   |
+| :-------: | :------------: | :--------: |
+| 10" pizza | 78 sq in area  | 176g dough |
+| 11" pizza | 95 sq in area  | 213g dough |
+| 12" pizza | 113 sq in area | 254g dough |
+| 13" pizza | 132 sq in area | 298g dough |
+| 14" pizza | 153 sq in area | 344g dough |
+| 15" pizza | 176 sq in area | 396g dough |
+| 16" pizza | 201 sq in area | 452g dough |
+| 17" pizza | 222 sq in area | 500g dough |
+| 18" pizza | 254 sq in area | 571g dough |
+| 19" pizza | 283 sq in area | 637g dough |
+| 20" pizza | 314 sq in area | 706g dough |
 
 _All sizes calculated with a density of 2.25 gr/sq. in. Yep. Mixed scales. I'll fix that eventually. Go look at [Bread Baker's Math](/concepts/bakers-math/)_
