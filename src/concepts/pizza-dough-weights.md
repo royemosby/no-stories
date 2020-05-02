@@ -1,6 +1,6 @@
 ---
 title: thin crust pizza dough weights
-description: Weight in grams for the dough as stretched out for a NY style pizza per square inch comes to about 2.25g/sq. in.
+description: Weight of dough for different sizes of NY style pizza.
 sourceTitle: Unknown
 sourceLicense:
   license: unknown- contact me if you know the original source.
@@ -22,3 +22,5 @@ _Sorry mobile! Will work on a responsive table soon._
 | 254 sq in area | 18" pizza | 571g dough | @ 2.25g/sq. in. |
 | 283 sq in area | 19" pizza | 637g dough | @ 2.25g/sq. in. |
 | 314 sq in area | 20" pizza | 706g dough | @ 2.25g/sq. in. |
+
+_All sizes calculated with a density of 2.25 gr/sq. in. Yep. Mixed scales. I'll fix that eventually. Go look at [Bread Baker's Math](/concepts/bakers-math/)_
