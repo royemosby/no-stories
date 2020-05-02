@@ -1,5 +1,5 @@
 ---
-title: whole wheat sandwich bread
+title: 50% whole wheat sandwich bread
 description: slightly sweet, half-whole-wheat bread. Yields 1 loaf.
 tags: ['bread', 'whole wheat', 'sandwich', 'yeast leavened']
 ---
