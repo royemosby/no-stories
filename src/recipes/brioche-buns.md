@@ -1,7 +1,7 @@
 ---
 title: brioche buns
 description: 10 hamburger buns or up to 20 slider buns
-tags: ['bread', 'whole wheat', 'sandwich', 'yeast leavened']
+tags: ['bread', 'bun', 'brioche', 'sandwich', 'yeast leavened']
 ---
 
 ## Ingredients
