@@ -1,4 +1,5 @@
 ---
+date: 2020-05-06
 title: brioche buns
 description: 10 hamburger buns or up to 20 slider buns
 tags: ['bread', 'bun', 'brioche', 'sandwich', 'yeast leavened']

@@ -1,6 +1,6 @@
 ---
 title: salsa verde
-date: Last Modified
+date: 2020-03-15
 description: Salsa verde from baked ingredients. Uses habaneros to modulate the heat.
 tags: ['condiment', 'sauce', 'spicy', 'mexican']
 sourceTitle: 'Inspired by: My Mexico City Kitchen'

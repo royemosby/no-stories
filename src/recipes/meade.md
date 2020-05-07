@@ -2,7 +2,7 @@
 title: raspberry ginger honey meade
 description: Honey meade backed with the flavors of raspberries and ginger.
 tags: ['alcahol', 'ferment', 'beverage', 'honey']
-date: 'Last Modified'
+date: 2020-04-26
 ---
 
 ## Ingredients

@@ -1,4 +1,5 @@
 ---
+date: 2020-05-02
 title: thin crust pizza dough weights
 description: Weight of dough for different sizes of NY style pizza.
 sourceTitle: Unknown

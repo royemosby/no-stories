@@ -1,6 +1,6 @@
 ---
 title: waffles
-date: Last Modified
+date: 2020-03-24
 description: Family waffle recipe. Comfortably serves 4 with a few left over
 tags: ['breakfast', 'waffles', 'quick leavened']
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2020-01-20
 title: cinnamon rolls
 description: Good overnight recipe that makes rolls enough to fill a 9" by 13" tray.
 tags: ['dessert', 'cinnamon rolls', 'yeast leavened']

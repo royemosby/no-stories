@@ -1,6 +1,6 @@
 ---
 title: ricotta
-date: Last Modified
+date: 2020-03-24
 description: Soft, crumbly cheese ready in 15-20 minutes
 tags: ['cheese', 'curdled', 'milk']
 ---

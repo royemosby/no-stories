@@ -1,4 +1,5 @@
 ---
+date: 2020-01-19
 title: "bread baker's math"
 description: Fomulas used to discuss ingredient ratios in bread-making
 sourceTitle: 'The Fresh Loaf'

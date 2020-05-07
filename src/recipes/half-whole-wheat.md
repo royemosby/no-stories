@@ -1,4 +1,5 @@
 ---
+date: 2020-03-21
 title: 50% whole wheat sandwich bread
 description: slightly sweet, half-whole-wheat bread. Yields 1 loaf.
 tags: ['bread', 'whole wheat', 'sandwich', 'yeast leavened']
