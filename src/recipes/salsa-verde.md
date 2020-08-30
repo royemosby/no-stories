@@ -6,8 +6,8 @@ tags: ['condiment', 'sauce', 'spicy', 'mexican']
 sourceTitle: 'Inspired by: My Mexico City Kitchen'
 sourceAuthor: Gabriela Camara
 sourceLicense:
-  license: 'Copyright 2019'
-  URL: '#'
+  license: "ingredient list not protected by copyright"
+  URL: "https://www.copyright.gov/circs/circ33.pdf"
 ---
 
 ## Ingredients
