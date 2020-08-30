@@ -2,7 +2,7 @@
 title: raspberry ginger honey meade
 description: Honey meade backed with the flavors of raspberries and ginger.
 tags: ['alcahol', 'ferment', 'beverage', 'honey']
-date: 2020-04-26
+date: 2020-04-24
 ---
 
 ## Ingredients
@@ -47,4 +47,10 @@ _This is the first time attempting this recipe and is an experiement. I do not k
 
 ![Meade starting to bubble from fermentation](/images/honeymeade.jpg)
 
-- April 26th: Still bubbling lightly like it was yesterday.
+### April 26th
+
+Still bubbling lightly like it was yesterday.
+
+### May 8th
+
+Not really bubbling any more. Half of the remains from the berries was sitting on the top as a scummy substance. I didn't take any pictures because the bottles looked almost the same. It didn't seem like it was mold, though. The smell was very floral and the cloves make their presence know. I'll probably go with 10 next time instead of 30. I also took the opportunity to transfer the meade (straining out the particulates with a muslin-like filter) over to a glass gallon fermentation jar with a water lock.
