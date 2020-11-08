@@ -474,6 +474,12 @@ main {
   main ol li {
     margin-bottom: 0.75em;
     line-height: 1.75em; }
+  main p a, main li a {
+    border-bottom: 3px solid #ddc7c4; }
+    main p a:hover, main li a:hover {
+      border-bottom: 3px solid #b88a83;
+      animation-timing-function: ease-in-out;
+      animation-duration: .2s; }
 
 .footnotes {
   font-size: 0.9em;
