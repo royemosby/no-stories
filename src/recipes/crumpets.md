@@ -1,6 +1,6 @@
 ---
 title: sourdough discard crumpets
-date: 2020-12-31 18:00:00 -4
+date: 2020-11-07 18:00:00 -4
 description: Adaption of the King Author Baking Company's recipe. Makes 6.
 tags: ['breakfast', 'bread', 'sourdough', 'yeast leavened']
 ---
