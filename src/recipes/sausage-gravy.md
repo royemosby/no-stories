@@ -1,15 +1,17 @@
 ---
 title: Sausage Gravy 
-date: 2020-12-31 18:00:00 -4
+date: 2020-11-07 18:00:00 -4
 description: Sausage gravy with a jalapeno kick. Serves 4-6.
 tags: [breakfast, sausage, topping, jalapeno]
 ---
+
+This recipe is inspired by the biscuits and gravy served by [The Root Cellar](https://rootcellarcafe.com/) in San Marcos, TX. This recipe stands out from traditional sausage gravy because of the vegetal brightness that jalapeños bring to this dish.
 
 ## Ingredients
 
 - 16 oz pork breakfast sausage
 - 1/2 medium white or sweet onion
-- 1/2 jalapeno, seeded (add in pepper flakes if more heat desired)
+- 1/2 jalapeno, seeded[^options]
 - 3 tbsp flour
 - 2 cups milk, with 1-2 in reserve for thickness preferences
 
@@ -33,3 +35,5 @@ tags: [breakfast, sausage, topping, jalapeno]
 1. Slowly pour in 2 cups of milk, scraping any fond/flour that has built up on the bottom of the pan. Stir contents of the pan continuously for a minute.
 1. When everything starts to bubble, turn pan to medium-low to prevent milk from scortching.
 1. Add small amounts of reserved milk in while continuously stirring to thin out gravy. Do this until the desired thickness is reached. Too thick and the gravy will end up pasty and taste overwhelmingly of flour. A good indicator of doneness is to dip the back of a spoon into the gravy then pull it out. It should drip but a thin coating should remain on the spoon. When a line is drawn through the gravy with your finger (definately not your tongue) it should remain.
+
+[^options]: If you're looking for an additional bit of heat, add some pepper flakes or use a serrano pepper instead of the jalapeño.
