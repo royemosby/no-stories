@@ -13,7 +13,7 @@ tags: ['quick leavened', 'bread', 'breakfast', 'butter']
 - 2 tsp sugar
 - 1 tsp salt
 - 1/2 c shortening (butter can be substituted)
-- 2/3 - 3/4 c milk [^variant]
+- 2/3 - 3/4 c milk [^variant] [^variant2]
 
 ## Directions
 
@@ -27,3 +27,5 @@ tags: ['quick leavened', 'bread', 'breakfast', 'butter']
 8. Bake 12-15 minutes.
 
 [^variant]: For drop biscuits, increase milk to 1 c.
+
+[^variant2]: Buttermilk can be used instead of milk for a different flavor. If using buttermilk, increase baking soda to 5 tsp to counteract acidity.
