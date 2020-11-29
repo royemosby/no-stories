@@ -20,17 +20,13 @@ function onError(err) {
   this.emit('end');
 }
 
-gulp.task('css:compile', () =>
+gulp.task('css:compile', () => {
   gulp
     .src(paths.sass.source)
-    .pipe(
-      plumber({
-        errorHandler: onError,
-      }),
-    )
+    .pipe(plumber({ errorHandler: onError }))
     .pipe(sass())
-    .pipe(gulp.dest(paths.sass.dest)),
-);
+    .pipe(gulp.dest(paths.sass.dest));
+});
 
 gulp.task('watch', () => {
   gulp.watch(paths.sass.watch, gulp.parallel('css:compile'));
