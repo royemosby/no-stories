@@ -2,3 +2,4 @@ node_modules
 icons/.DS_Store
 src/.DS_Store
 _site
+src/images/.DS_Store

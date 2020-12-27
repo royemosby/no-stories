@@ -11,7 +11,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 
 - 1 3/4 c AP flour
 - 1 tbls cinnamon
-- 1/2 tsp ginger
+- 1 tsp ginger
 - 1/2 tsp nutmeg
 - 1/4 tsp clove
 - 1 tsp salt
@@ -31,7 +31,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 
 - 8 oz marscapone
 - 1 tsp vanilla extract
-- 2/3 - 1 1/2 confectioners sugar
+- 2/3 - 1 1/2 c confectioners sugar
 
 ## Hardware
 
@@ -51,7 +51,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 1. Combine eggs and brown sugar, whisking vigorously for 2 minutes.
 1. Whisk in oil.
 1. Switch to spatula and add in the dry mix, stirring until batter is well combined and smooth. It will be fairly thick in consistiency.
-1. Fold in grated carrot.
+1. Fold in grated carrot, walnuts, and raisins.
 1. Transfer batter into prepared bread tin and spread out evenly.
 1. Bake for 50-60 minutes or until a cake tester inserted at the middle comes out clean.
 1. Allow to cool for 10 minutes in bread tin.
