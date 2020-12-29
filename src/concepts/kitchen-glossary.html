@@ -6,8 +6,8 @@ tags: pinned
 ---
 
 <dl>
-  {% for definition in collections.definitions %}
-  <dt>{{ definition.data.title }}</dt>
+  {% for definition in collections.glossarySortedAlpha %}
+  <dt id="{{ definition.data.title | | replace: ' ', '-'}}">{{ definition.data.title }}</dt>
   <dd>{{ definition.templateContent }}</dd>
   {% endfor %}
 </dl>
