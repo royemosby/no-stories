@@ -32,7 +32,7 @@ This recipe focuses on chicken paprikash. It is often served over some sort of s
 
 ## Directions
 
-1. Prep ingredients
+1. [Mise en place](/concepts/kitchen-glossary#mis-en-place)
     - Cut chicken into 1" cubes into a bowl
     - Rough dice or frenh the onion into a separate bowl
     - Finely dice garlic and add to onion's bowl

@@ -31,7 +31,7 @@ sourceLicense:
 
 ## Directions
 
-1. Prep ingredients
+1. [Mise en place](/concepts/kitchen-glossary#mis-en-place)
     - Cut off fennel stems at the start of the feathery leaves. Dispose of leaves and stems. Cut off and dispose of brown base where harvested. Chop fennel bulbs finely and aside in bowl.
     - Chop one large onion and dice 2 cloves garlic. Set aside in bowl with fennel.
     - Cut bacon into 1/2" strips.
