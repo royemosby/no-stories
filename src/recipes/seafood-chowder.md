@@ -1,7 +1,7 @@
 ---
 title: seafood chowder
 date: 2020-12-29 18:00:00 -4
-description: A rich, creamy chowder using white fish, scallops and shripm. Serves 4-6.
+description: A rich, creamy chowder using white fish, scallops and shrimp. Serves 4-6.
 tags: [soup, seafood, chowder, fish, shrimp]
 ---
 
