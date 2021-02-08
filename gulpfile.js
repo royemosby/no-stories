@@ -20,7 +20,7 @@ function onError(err) {
   this.emit('end');
 }
 
-gulp.task('css:compile', () => {
+gulp.task('css:compile', async function() {
   gulp
     .src(paths.sass.source)
     .pipe(plumber({ errorHandler: onError }))
