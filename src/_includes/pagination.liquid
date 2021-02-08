@@ -1,0 +1,26 @@
+{% assign previous = pagination.href.previous | strip %}
+{% assign next = pagination.href.next | strip %}
+{% assign page_index = pagination.pageNumber | plus:0  %}
+{% assign current_page = "Newest" %}
+
+{% if page_index == "0" %}
+  {% assign current_page = "Newest" %}
+{% elsif next == "null" %}
+  {% assign current_page = "End" %}
+{% else %}
+  {% assign current_page = "Page " | append: page_index %}
+{%  endif %}
+
+
+
+<ul id="pagination">
+  <li id="pagination-newer"
+      class="{% if previous == "null" %}{{"is-disabled"}}{% endif %}">
+        <a href="{{ pagination.href.previous }}"> &lt&lt Newer</a>
+  </li>
+  <li id="pagination-current">{{ current_page }}</li>
+  <li id="pagination-older"
+      class="{% if next == "null" %}{{"is-disabled"}}{% endif %}">
+        <a href="{{ pagination.href.next }}"/>Older &gt&gt</a>
+  </li>
+</ul>
