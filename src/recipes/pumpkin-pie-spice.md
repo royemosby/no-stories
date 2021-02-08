@@ -15,6 +15,8 @@ tags: ['spice', 'seasoning']
 - 1 1/2 tsp clove, ground
 - 1 1/2 tsp allspice
 
+## Instructions
+
 1. Combine all pre-ground ingredients
 2. Using a micro-plane or a nutmeg grater, grate in about a half of a nutmeg seed.
 3. Stir until homogenous and store in a glass container.
