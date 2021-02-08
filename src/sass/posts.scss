@@ -21,6 +21,34 @@ li img {
   width: 150px;
 }
 
+#pagination{
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-inline-start: 0;
+  &-newer{
+    border-right: 4px solid lighten($base-color, 50%);
+  }
+  &-older{
+    border-left: 4px solid lighten($base-color, 50%);
+  }
+  & .is-disabled{
+    display: none;
+  }
+  & a{
+    text-decoration: none;
+    border: none;
+  }
+}
+
+#pagination-newer, #pagination-current, #pagination-older {
+  padding: 0 .5rem;
+}
+
+
+
 @media screen and(min-width: $breakpoint-tablet) {
   li img {
     width: 400px;

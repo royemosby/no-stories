@@ -669,6 +669,26 @@ li img {
   padding-top: 0.7em;
   width: 150px; }
 
+#pagination {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-inline-start: 0; }
+  #pagination-newer {
+    border-right: 4px solid #c19993; }
+  #pagination-older {
+    border-left: 4px solid #c19993; }
+  #pagination .is-disabled {
+    display: none; }
+  #pagination a {
+    text-decoration: none;
+    border: none; }
+
+#pagination-newer, #pagination-current, #pagination-older {
+  padding: 0 .5rem; }
+
 @media screen and (min-width: 768px) {
   li img {
     width: 400px; } }
