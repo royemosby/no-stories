@@ -2,11 +2,6 @@
 date: 2020-09-27
 title: baker's percentages
 description: How to think about bread recipes so they can be scaled
-sourceTitle: Various
-sourceLicense:
-  license: unknown- contact me if you know the original source.
-  URL: /about/index.html
-draft: true
 ---
 ## Baker's math
 
