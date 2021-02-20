@@ -5,21 +5,22 @@
 ### Directory tree
 
 ```plaintext
-|-_site                    ###files for deployment
+|-_site                    ### files for deployment
 |-src/
-  |-_includes/             ###template files
-  |-concepts/              ###posts relating to cooking concepts
-    |-kitchen-glossary/    ###sub-posts for definitions
+  |-_includes/             ### template files
+  |-concepts/              ### posts relating to cooking concepts
+    |-kitchen-glossary/    ### sub-posts for definitions
+  |-drafts                 ### in eleventyignore
   |-icons/
   |-images/
-  |-sass/                  ###scss files broken down from general to specific
-    |-defaults/            ###border-box and normalize
+  |-sass/
+    |-defaults/            ### resets
   |-scripts/
-  |-styles/                ###compiled css that gets copied to _site
-|-.eleventy.js             ###Eleventy SSG config
+  |-styles/                ### compiled css that gets copied to _site
+|-.eleventy.js
 |-.gitignore
-|-gulpfile.js              ###primarily to process scss
-|-LICENSE                  ###all files MIT unless otherwise stated in front-matter
+|-gulpfile.js              ### primarily to process scss
+|-LICENSE                  ### all files MIT (recipes cannot be copyrighted/licensed)
 |-package-lock.json
 |-package.json
 |-README.md
@@ -28,7 +29,7 @@
 ### Current configs
 
 - addPassthruCopy: icons, images, styles, js
-- setDataDeepMerge(true) [11ty's docs ↗️](https://www.11ty.dev/docs/data-deep-merge/)
+- setDataDeepMerge(true) [11ty's docs ↗️](https:www.11ty.dev/docs/data-deep-merge/)
 - using markdown-it and markdown-it-footnote
 - customized collection that front-loads pinned material in the concepts section.
 
@@ -42,6 +43,9 @@ After cloning repo, run `npm install` and wait for all node modules to be instal
 npm run test #hello world equivalent
 npm run develop #provides a server and live-rebuild environment on localhost:8080
 npm run debug #runs DEBUG; uses globally installed debug package that spits out diagnostic info on the build process and any errors encountered
+npm run newRecipe #creates new.md in drafts
+npm run newConcept #creates new.md in drafts
+npm run newDefinition # creates new.md in drafts.kitchen-glossary
 ```
 
 ## Blogging
@@ -54,16 +58,16 @@ Defaults found in their respective data file are shown in place. These terms do 
 
 ```yaml
 ---
-title: //string
-description: //string
-// date: leave blank or provide yyyy-mm-dd to override default date sort
+title: string
+description: string
+ date: leave blank or provide yyyy-mm-dd to override default date sort
 layout: post.liquid
 tags: ['posts', 'concepts']
-sourceTitle: //optional string
-sourceURL: //optional URL
+sourceTitle: optional string
+sourceURL: optional URL
 sourceLicense:
-  license: //optional string
-  URL: //optional URL
+  license: optional string
+  URL: optional URL
 ---
 
 ```
@@ -72,16 +76,16 @@ sourceLicense:
 
 ```yaml
 ---
-title: //string
-description: //string
+title: string
+description: string
 date: Last Modified
 layout: post.liquid
 tags: ['posts', 'recipes']
-sourceTitle: //optional string
-sourceURL: //optional URL
+sourceTitle: optional string
+sourceURL: optional URL
 sourceLicense:
-  license: //optional string
-  URL: //optional URL
+  license: optional string
+  URL: optional URL
 ---
 
 ```
@@ -90,17 +94,17 @@ sourceLicense:
 
 ```yaml
 ---
-title: //string
-description: //string
+title: string
+description: string
 date: Last Modified
 layout: post.liquid
 permalink: false
 tags: ['posts', 'recipes', 'definitions']
-sourceTitle: //optional string
-sourceURL: //optional URL
+sourceTitle: optional string
+sourceURL: optional URL
 sourceLicense:
-  license: //optional string
-  URL: //optional URL
+  license: optional string
+  URL: optional URL
 ---
 
 ```
@@ -111,10 +115,10 @@ This site nests illustrations inside the list items they support. This allows me
 
 ## TODO
 
-- Alphabetize glossary
-- Consider search
-- About: this site
-- How to do recipe change logs?
+- [tags ftw](https:www.11ty.dev/docs/quicktips/tag-pages/)
+- Make nicer recipe.concept/definition generators
+- Search/indexing
+- How to journal in a recipe? Fermenation and bread experiments.
 - Optionally link to cited source instead of always (forced to use anchor placeholder)
-- Optionally link to license instead of always
-- tags ftw
+- [h-recipe microformat](https:microformats.org/wiki/h-recipe).
+- Nutrition API tie-in
