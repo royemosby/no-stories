@@ -25,7 +25,7 @@ sourceLicense:
 
 - 1 half sheet-cake size cooking sheet + liner pan OR
 - 2 9" by 11" casserole dishes
-- blender (or food processor)
+- blender or food processor
 
 ## Instructions
 
@@ -49,4 +49,4 @@ sourceLicense:
 18. While still blending, add remaining water in small amounts. Stop blending periodically to test for desired thickness. Factor in that salsa verde will thicken slightly when cold.
 19. Add in remaining tomatillos and blend lightly to get a chunkier salsa or thoroughly to have a smoother texture.
 20. Transfer salsa to a sealable glass container. This recipe will fill 3/4 of a quart jar.
-21. Use within 3 weeks, storing in the fridge.
+21. Use within 2 weeks, storing in the fridge. Salsa verde will thicken slightly when chilled.
