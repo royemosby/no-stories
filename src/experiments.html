@@ -1,0 +1,26 @@
+---
+layout: default
+title: experiments
+description: web tools and experiments on NOSTORIES
+pagination:
+  data: collections.experiments
+  size: 10
+  reverse: true
+  alias: experiments
+---
+<div class="center">
+  <span>Recent experiments</span>
+  <h4>(Web-based tools and experiments authored by yours truely)</h4>
+</div>
+{% for experiment in experiments %}
+<a href="{{ experiment.url}}" class="card">
+  <article>
+    <h1>{{ experiment.data.title }}</h1>
+    <span>{{ experiment.date | date: '%a, %b %d, %Y' }}</span>
+
+    <p class="column-span-1-3">{{ experiment.data.description }}</p>
+  </article>
+</a>
+{% endfor %}
+
+{% include pagination %}
