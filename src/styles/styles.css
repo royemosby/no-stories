@@ -526,7 +526,8 @@ footer {
 @media screen and (max-width: 767px) {
   .header-menu li:first-child::after,
   .header-menu li:nth-child(2)::after,
-  .header-menu li:nth-child(3)::after {
+  .header-menu li:nth-child(3)::after,
+  .header-menu li:nth-child(4)::after {
     content: '·';
     margin: 2px; }
   .header-menu li:last-child {
@@ -594,6 +595,10 @@ article {
     text-align: left; }
   article:hover {
     background: linear-gradient(to bottom, #f7f3f3, #ffffff); }
+
+.column-span-1-3 {
+  grid-column-start: 1;
+  grid-column-end: 3; }
 
 @media screen and (min-width: 768px) {
   .center {

@@ -283,7 +283,8 @@ footer {
   .header-menu {
     li:first-child::after,
     li:nth-child(2)::after,
-    li:nth-child(3)::after {
+    li:nth-child(3)::after,
+    li:nth-child(4)::after {
       content: '·';
       margin: 2px;
     }
