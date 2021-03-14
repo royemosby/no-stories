@@ -3,12 +3,9 @@ title: salsa verde
 date: 2020-03-15
 description: Salsa verde from baked ingredients. Uses habaneros to modulate the heat.
 tags: ['condiment', 'sauce', 'spicy', 'mexican']
-sourceTitle: 'Inspired by: My Mexico City Kitchen'
-sourceAuthor: Gabriela Camara
-sourceLicense:
-  license: "ingredient list not protected by copyright"
-  URL: "https://www.copyright.gov/circs/circ33.pdf"
 ---
+
+Inspired by the salsa verde recipe found in [My Mexico Kitchen](https://www.google.com/books/edition/_/tD5kDwAAQBAJ?hl=en) by [Gabriela Camara](https://en.wikipedia.org/wiki/Gabriela_C%C3%A1mara). Adapted for personal preference and ingredient availability.
 
 ## Ingredients
 

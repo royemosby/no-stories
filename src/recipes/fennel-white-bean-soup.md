@@ -3,11 +3,9 @@ title: fennel and white bean soup
 date: 2020-08-30 10:00:00 -4
 description: A creamy soup with a slight but not overpowering anise flavor. Serves plenty.
 tags: ["soup", "fennel"]
-sourceTitle: 'Inspired by Epicurious'
-sourceLicense:
-    license: "ingredient list not protected by copyright"
-    URL: "https://www.copyright.gov/circs/circ33.pdf"
 ---
+
+Inspired by recipe found on [Epicurius](https://www.epicurious.com/).
 
 ## Ingredients
 
