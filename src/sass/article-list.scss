@@ -6,13 +6,13 @@
 article {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   border-color: $base-color;
   border-top: 3px solid;
   border-left: 3px solid;
   border-right: 3px solid;
   margin: 0 1em 1em 1em;
-  padding: 1em 2em;
+  padding: 1em 1em;
   transition-duration: 0.4s;
   transition-property: background-color;
   & span {
@@ -24,10 +24,10 @@ article {
     margin: 0;
   }
   & h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 0.1rem;
     margin: 0;
-    position: relative;
+    text-align: center;
     & .pushpin {
       font-size: 0.7em;
       position: absolute;
@@ -38,7 +38,7 @@ article {
   & p {
     padding: 0.1rem;
     margin: 0;
-    text-align: left;
+    text-align: center;
   }
   &:hover {
     background: linear-gradient(to bottom, lighten($bg-darker, 5%), #ffffff);
@@ -81,10 +81,12 @@ article {
     & p {
       padding: 1rem;
       margin: 0;
-      text-align: right;
+      text-align: center;
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
     &.home {
-      grid-template-columns: 120px auto auto;
+      grid-template-columns: 120px auto;
     }
   }
 }
@@ -115,7 +117,7 @@ article {
     & p {
       padding: 1rem;
       margin: 0;
-      text-align: right;
+      //text-align: right;
     }
     &.home {
       grid-template-columns: 310px auto auto;
