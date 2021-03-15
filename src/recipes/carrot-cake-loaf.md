@@ -13,7 +13,8 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 - 1 tbls cinnamon
 - 1 tsp ginger
 - 1/2 tsp nutmeg
-- 1/4 tsp clove
+- 1/2 tsp nutmeg
+- 1/8 tsp clove
 - 1 tsp salt
 - 2 tsp baking powder
 - 1/2 tsp baking soda
@@ -31,6 +32,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 
 - 8 oz marscapone
 - 1 tsp vanilla extract
+- 3-4 tbsp milk.
 - 2/3 - 1 1/2 c confectioners sugar
 
 ## Hardware
@@ -44,7 +46,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 
 ### Instructions
 
-1. Pre-heat oven to 350F.
+1. Pre-heat oven to 350F. Set out marscapone and 4 tbsp milk so that they are room temperature when you are ready to make the icing.
 1. Line tin with parchment paper and spray inner surfaces with nonstick oil.
 1. Peel and shred carrots into a medium bowl.
 1. Mix all dry ingredients except walnutes and raisins into a large bowl.
@@ -56,5 +58,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 1. Bake for 50-60 minutes or until a cake tester inserted at the middle comes out clean.
 1. Allow to cool for 10 minutes in bread tin.
 1. Remove cake from tin and cool to room temperature.
-1. For icing, combine marscapone, vanilla and 2/3 c confectioners sugar until smooth. Add additional confectioners sugar until desired consistency is reached. We go with a thicker consistency where it sluggishly drizzles off the mixing utensil.
+1. For icing, combine room temperature[^curdle] marscapone, 2 tbls milk, vanilla, and confectioners sugar until smooth. Add additional milk until desired consistency is reached. We go with a thicker consistency where it sluggishly drizzles off the mixing utensil.
 1. Drizzle icing across the top of the cooled cake. Eat on the spot or refrigerate up to 5 days.
+
+[^curdle]: Marscapone tends to curdle when combined with ingredients of differing temperatures. If it does curdle, you can warm the mixture using the [double boiler](../../concepts/kitchen-glossary/#double-boil) technique or microwaving gently. After warmed, re-mix.
