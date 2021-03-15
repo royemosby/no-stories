@@ -29,7 +29,7 @@ tags: ['breakfast', 'waffles', 'quick leavened']
 4. Combine wet and dry ingredients
 5. Allow to sit for several minutes so flour can absorb moisture
 6. Plug in waffle iron
-7. Whisk egg whites until they have soft peaks
+7. Whisk egg whites until they have [soft peaks](../../concepts/kitchen-glossary/#egg-white-peaks)
 8. Stir 1/3 egg whites into waffle mix
 9. Fold in remaining egg whites in 2 batches
 10. Cooking times vary by waffle iron- start with 4 minutes, extend time for crispier waffles. Ignore the "done" LED on waffle iron. It is not as smart as you think.
