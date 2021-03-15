@@ -2,6 +2,10 @@
 @import 'defaults/border-box';
 @import 'variables';
 
+@import 'header';
+@import 'main';
+@import 'footer';
+
 /* BEGIN DEFAULTS */
 html {
   min-height: 100%;
@@ -40,13 +44,7 @@ a {
       height: 50%;
       width: 100%;
       background-color: lighten($base-color, 65%);
-      /*background: linear-gradient(
-        to bottom,
-        $bg-darker,
-        lighten($base-color, 65%)
-      ); */
       z-index: -1;
-      //transform: scale(1.05);
     }
   }
 }
@@ -57,13 +55,16 @@ h3,
 h4,
 h5,
 h6 {
-  //margin-top: 0;
   font-family: $font-display;
   text-transform: uppercase;
 }
 
 h3 {
   margin-bottom: 0.5em;
+}
+
+.tiny-heading{
+  font-size: 1.2em;
 }
 
 p {
@@ -117,110 +118,6 @@ td {
   border: 1px solid $base-color;
 }
 
-/* END DEFAULTS */
-
-/*Base components*/
-
-/*Header*/
-header {
-  background-color: $bg-darker;
-  display: flex;
-  flex-direction: column;
-  //flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 10px 5px;
-  align-items: center;
-  width: 100%;
-  & .site-name {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-    display: inline-block;
-    border-bottom: 2px solid $bg-color;
-  }
-  & .micro {
-    height: 20px;
-    font-size: 0.3em;
-    display: inline-block;
-    transform-origin: center;
-    transform: rotate(-20deg) translate(0.4em, -0.6em);
-    &::before {
-      content: '-';
-    }
-    &::after {
-      content: '-';
-    }
-  }
-}
-
-nav {
-  & ul {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    font-family: $font-display;
-    font-size: 1.3em;
-    font-weight: bold;
-    text-transform: uppercase;
-    list-style: none;
-    margin: 1em 0 0 0;
-    padding: 0;
-    & li {
-      margin-bottom: 0.6em;
-    }
-  }
-}
-
-/*End header*/
-
-/*Main*/
-
-.center {
-  border-color: $base-color;
-  border-top: 4px solid;
-  margin: 0 1em 1em 1em;
-  padding: 1em 2em;
-  text-align: center;
-  & span {
-    font-family: $font-display;
-    font-size: 1.5em;
-  }
-}
-
-main {
-  //background-color: $bg-color;
-  display: flex;
-  flex: 1 0 auto;
-  flex-direction: column;
-  //justify-content: center;
-  max-width: 900px;
-  padding: 1em;
-  & ul {
-    margin-top: 0;
-    & li {
-      margin-bottom: 0.75em;
-    }
-  }
-  & ol {
-    & li {
-      margin-bottom: 0.75em;
-      line-height: 1.75em;
-    }
-  }
-  & p a, li a{
-    border-bottom: 3px solid lighten($base-color, 65%);
-    &:hover{
-      border-bottom: 3px solid lighten($base-color, 45%);
-      animation-timing-function: ease-in-out;
-      animation-duration: .2s;
-    }
-  }
-}
-
 .footnotes {
   font-size: 0.9em;
   border-top: 2px solid $bg-darker;
@@ -241,93 +138,11 @@ main {
     }
   }
 }
-
-/*End main*/
-
-/*Footer*/
-
-footer {
-  align-items: center;
-  background-color: $bg-darker;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  width: 100%;
-
-  & .micro {
-    font-size: 0.3em;
-  }
-  & .rp {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: space-between;
-    & p {
-      margin: 2px;
-    }
-    & img {
-      height: 100px;
-      width: 100px;
-    }
-  }
-  & nav {
-    & ul {
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: flex-end;
-    }
-  }
-}
-@media screen and (max-width: $breakpoint-tablet - 1) {
-  .header-menu {
-    li:first-child::after,
-    li:nth-child(2)::after,
-    li:nth-child(3)::after,
-    li:nth-child(4)::after {
-      content: '·';
-      margin: 2px;
-    }
-    li:last-child {
-      margin: 0;
-    }
-  }
-}
-@media screen and (min-width: $breakpoint-tablet) {
-  header {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    & .site-name {
-      border-bottom: none;
-      font-size: 3em;
-      margin-left: 1em;
-      text-align: left;
-    }
-    li:last-child {
-      margin: 0;
-    }
-  }
-  nav {
-    & ul {
-      flex-flow: column;
-      align-items: flex-end;
-      margin: 0;
-    }
-  }
-}
-@media screen and (min-width: $breakpoint-desktop) {
-  main {
-    max-width: 1275px;
-  }
-}
-
-/*End footer*/
-/*End base components*/
-/* END DEFAULTS */
 @import 'article-list';
 @import 'posts';
 @import 'glossary';
 @import 'about';
+
 html {
   display: block;
 }

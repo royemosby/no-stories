@@ -1,0 +1,45 @@
+.center {
+  border-color: $base-color;
+  border-top: 4px solid;
+  margin: 0 1em 1em 1em;
+  padding: 1em 2em;
+  text-align: center;
+  & span {
+    font-family: $font-display;
+    font-size: 1.5em;
+  }
+}
+
+main {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  max-width: 900px;
+  padding: 1em;
+  & ul {
+    margin-top: 0;
+    & li {
+      margin-bottom: 0.75em;
+    }
+  }
+  & ol {
+    & li {
+      margin-bottom: 0.75em;
+      line-height: 1.75em;
+    }
+  }
+  & p a, li a{
+    border-bottom: 3px solid lighten($base-color, 65%);
+    &:hover{
+      border-bottom: 3px solid lighten($base-color, 45%);
+      animation-timing-function: ease-in-out;
+      animation-duration: .2s;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+  main {
+    max-width: 1275px;
+  }
+}

@@ -1,0 +1,30 @@
+footer {
+  align-items: center;
+  background-color: $bg-darker;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+
+  & .micro {
+    font-size: 0.3em;
+  }
+  & .rp {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    & p {
+      margin: 2px;
+    }
+    & img {
+      height: 160px;
+      width: 160px;
+    }
+  }
+}
+
+.footer-menu ul{
+  flex-flow: column;
+}

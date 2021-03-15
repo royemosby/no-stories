@@ -1,0 +1,62 @@
+header {
+  position: sticky;
+  top:0;
+  background-color: $bg-darker;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 5px;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  & .site-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: 2px solid $bg-color;
+  }
+  & .micro {
+    height: 20px;
+    font-size: 0.3em;
+    display: inline-block;
+    transform-origin: center;
+    transform: rotate(-20deg) translate(0.4em, -0.6em);
+    &::before {
+      content: '-';
+    }
+    &::after {
+      content: '-';
+    }
+  }
+}
+
+nav {
+  & ul {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: $font-display;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 1em 0 0 0;
+    padding: 0;
+    & li {
+      margin: 0 0.6em .6em .6em;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+  header {
+    & .site-name {
+      font-size: 3em;
+    }
+  }
+}
