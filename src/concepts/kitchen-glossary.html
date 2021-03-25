@@ -5,9 +5,11 @@ description: Techniques or terms that are important around a kitchen.
 tags: pinned
 ---
 
-<dl>
-  {% for definition in collections.glossarySortedAlpha %}
-  <dt id="{{ definition.data.title | | replace: ' ', '-'}}">{{ definition.data.title }}</dt>
-  <dd>{{ definition.templateContent }}</dd>
-  {% endfor %}
-</dl>
+
+
+{% for definition in collections.glossarySortedAlpha %}
+<details>
+  <summary id="{{ definition.data.title | | replace: ' ', '-'}}">{{ definition.data.title }}</summary>
+  <div>{{ definition.templateContent }}</div>
+</details>
+{% endfor %}
