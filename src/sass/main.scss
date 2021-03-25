@@ -14,6 +14,7 @@ main {
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
+  width: 100%;
   max-width: 900px;
   padding: 1em;
   & ul {
@@ -36,6 +37,10 @@ main {
       animation-duration: .2s;
     }
   }
+}
+img{
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (min-width: $breakpoint-desktop) {
