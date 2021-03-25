@@ -40,3 +40,32 @@ input {
     }
   }
 }
+
+#social-media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.social {
+  height: 120px;
+  padding: 1em;
+  width: 120px;
+  min-height: 60px;
+  min-width: 60px;
+  &.linkedin{ //LI icon cropping weird
+    height: 130px;
+    width: 130px;
+    position: relative;
+    top: 4px;
+    left: 3px
+  }
+}
+
+.social img {
+  opacity: 100%;
+  width: 100%;
+  filter: brightness(10%)
+}
