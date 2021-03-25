@@ -19,12 +19,23 @@ footer {
       margin: 2px;
     }
     & img {
-      height: 160px;
-      width: 160px;
+      height: 100px;
+      width: 100px;
     }
   }
 }
 
 .footer-menu ul{
   flex-flow: column;
+}
+
+@media screen and(min-width: $breakpoint-tablet){
+  footer{
+    & .rp{
+      & img {
+        height: 160px;
+        width: 160px;
+      }
+    }
+  }
 }
