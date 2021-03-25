@@ -30,7 +30,7 @@
 
 - addPassthruCopy: icons, images, styles, js
 - setDataDeepMerge(true) [11ty's docs ↗️](https:www.11ty.dev/docs/data-deep-merge/)
-- using markdown-it and markdown-it-footnote
+- using markdown-it, markdown-it-footnote, markdown-it-attrs
 - customized collection that front-loads pinned material in the concepts section.
 
 ### Installation
@@ -113,6 +113,10 @@ sourceLicense:
 
 This site nests illustrations inside the list items they support. This allows me to style the image without having to inline HTML in the markdown document. Images should appear before any words on the list item. This approach is not perfect because it does not take into account multiple pictures in close proximation of each other. Should it become a problem, it will be changed.
 
+### Microformat friendly (not done)
+
+This site will eventually use the h-recipe microformat. Doing so provides structure that allows search engines and extraction utilities to determine the type of information that on each recipe page. I'm still working out the specifics of my approach but it will most likely use a combination of markdown-it-attr and another parser to apply the classes that make up the h-recipe microformat to the appropriate elements on the page.
+
 ## TODO
 
 - [tags ftw](https:www.11ty.dev/docs/quicktips/tag-pages/)
@@ -120,5 +124,7 @@ This site nests illustrations inside the list items they support. This allows me
 - Search/indexing
 - How to journal in a recipe? Fermenation and bread experiments.
 - Optionally link to cited source instead of always (forced to use anchor placeholder)
-- [h-recipe microformat](https:microformats.org/wiki/h-recipe).
+- Microformats
+  - [h-recipe microformat](https:microformats.org/wiki/h-recipe).
+  - [markdown-it-attrs documentation](https://github.com/arve0/markdown-it-attrs) 
 - Nutrition API tie-in
