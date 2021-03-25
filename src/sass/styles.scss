@@ -144,6 +144,31 @@ td {
   border: 1px solid $base-color;
 }
 
+details {
+  border-top: 3px solid;
+  border-left: 3px solid #36221f;
+  border-right: 3px solid #36221f;
+  margin: 0 0 1em 0;
+  &[open] summary{
+    background-color: $bg-darker;
+  }
+}
+
+summary{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: .5em 1em;
+  &:focus{
+    outline: none;
+    background-color: $bg-darker;
+  }
+  & + div {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
 .footnotes {
   font-size: 0.9em;
   border-top: 2px solid $bg-darker;
