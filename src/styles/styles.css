@@ -376,6 +376,7 @@ main {
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
+  width: 100%;
   max-width: 900px;
   padding: 1em; }
   main ul {
@@ -391,6 +392,10 @@ main {
       border-bottom: 3px solid #b88a83;
       animation-timing-function: ease-in-out;
       animation-duration: .2s; }
+
+img {
+  width: 100%;
+  height: auto; }
 
 @media screen and (min-width: 1440px) {
   main {
@@ -414,11 +419,16 @@ footer {
     footer .rp p {
       margin: 2px; }
     footer .rp img {
-      height: 160px;
-      width: 160px; }
+      height: 100px;
+      width: 100px; }
 
 .footer-menu ul {
   flex-flow: column; }
+
+@media screen and (min-width: 768px) {
+  footer .rp img {
+    height: 160px;
+    width: 160px; } }
 
 /* BEGIN DEFAULTS */
 html {
@@ -530,6 +540,26 @@ tr:nth-child(even) {
 
 td {
   border: 1px solid #36221f; }
+
+details {
+  border-top: 3px solid;
+  border-left: 3px solid #36221f;
+  border-right: 3px solid #36221f;
+  margin: 0 0 1em 0; }
+  details[open] summary {
+    background-color: #ece5e4; }
+
+summary {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: .5em 1em; }
+  summary:focus {
+    outline: none;
+    background-color: #ece5e4; }
+  summary + div {
+    padding-left: 1em;
+    padding-right: 1em; }
 
 .footnotes {
   font-size: 0.9em;
