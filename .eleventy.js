@@ -7,7 +7,9 @@ module.exports = function(eleventyConfig) {
 
   let markdownIt = require('markdown-it');
   let markdownItFootnote = require('markdown-it-footnote');
-  let markdownLib = markdownIt().use(markdownItFootnote);
+  let markdownItAttrs = require('markdown-it-attrs');
+  let markdownLib = markdownIt().use(markdownItFootnote)
+                                .use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLib);
 
   eleventyConfig.addCollection('conceptsPlusPin', function(collection) {
