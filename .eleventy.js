@@ -4,7 +4,7 @@ const markdownItAttrs = require('markdown-it-attrs');
 const markdownLib = markdownIt().use(markdownItFootnote)
                               .use(markdownItAttrs);
 
-const schema = require("@quasibit/eleventy-plugin-schema");
+//const schema = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/icons');
@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/scripts');
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setLibrary('md', markdownLib);
-  eleventyConfig.addPlugin(schema);
+  //eleventyConfig.addPlugin(schema);
 
   eleventyConfig.addCollection('conceptsPlusPin', function(collection) {
     let pinned = collection
