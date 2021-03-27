@@ -1,16 +1,19 @@
+const markdownIt = require('markdown-it');
+const markdownItFootnote = require('markdown-it-footnote');
+const markdownItAttrs = require('markdown-it-attrs');
+const markdownLib = markdownIt().use(markdownItFootnote)
+                              .use(markdownItAttrs);
+
+const schema = require("@quasibit/eleventy-plugin-schema");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/icons');
   eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/styles');
   eleventyConfig.addPassthroughCopy('src/scripts');
   eleventyConfig.setDataDeepMerge(true);
-
-  let markdownIt = require('markdown-it');
-  let markdownItFootnote = require('markdown-it-footnote');
-  let markdownItAttrs = require('markdown-it-attrs');
-  let markdownLib = markdownIt().use(markdownItFootnote)
-                                .use(markdownItAttrs);
   eleventyConfig.setLibrary('md', markdownLib);
+  eleventyConfig.addPlugin(schema);
 
   eleventyConfig.addCollection('conceptsPlusPin', function(collection) {
     let pinned = collection
