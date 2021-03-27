@@ -1,7 +1,7 @@
 ---
 date: 2020-05-03
 title: biscuits
-description: Makes 8-10 tender biscuits (American variety).
+description: Makes 8-10 tender biscuits (savory American variety).
 tags: ['quick leavened', 'bread', 'breakfast', 'butter']
 ---
 
