@@ -2,7 +2,7 @@
 title: duxelles
 date: 2021-05-16 18:00:00 -4
 description: A sautee of minced mushooms that is suitable for use as a pasta or omelete filling or a topping for bruschetta. Yields approx 2 cups.
-tags: ['mushroom', 'filling]
+tags: ['mushroom', 'filling']
 ---
 
 Adaptation of the [Epicurious recipe](https://www.epicurious.com/recipes/member/views/duxelles-50016898).
