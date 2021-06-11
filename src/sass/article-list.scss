@@ -101,7 +101,7 @@ article {
   article {
     display: grid;
     //grid-template-columns: 300px auto;
-    align-items: start;
+    align-items: center;
     margin: 0 8em 1em 8em;
     padding: 1em 2em;
     & span {
@@ -121,6 +121,7 @@ article {
     }
     &.home {
       grid-template-columns: 310px auto auto;
+      justify-items: start;
     }
   }
 }
