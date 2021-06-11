@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const notify = require('gulp-notify');
-const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const plumber = require('gulp-plumber');
 
 const paths = {
