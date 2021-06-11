@@ -1,5 +1,7 @@
 # No stories, just recipes
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/977c0dc3-656c-4c2b-b3a5-f20ebe53dd70/deploy-status)](https://app.netlify.com/sites/nostories/deploys)
+
 ## Development
 
 ### Directory tree
