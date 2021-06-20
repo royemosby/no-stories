@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egomadking/no-stories.git"
+    "url": "git+https://github.com/royemosby/no-stories.git"
   },
   "author": "Roy Mosby",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egomadking/no-stories/issues"
+    "url": "https://github.com/royemosby/no-stories/issues"
   },
-  "homepage": "https://github.com/egomadking/no-stories#readme",
+  "homepage": "https://github.com/royemosby/no-stories#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "gulp": "^4.0.2",
