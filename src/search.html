@@ -1,0 +1,21 @@
+---
+layout: default.liquid
+title: Search No Stories
+description: Search results
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'KWVX37R28X',
+    apiKey: '2b976d54a91f049296401ad10a57a3da',
+    siteId: '977c0dc3-656c-4c2b-b3a5-f20ebe53dd70',
+    branch: 'master',
+    selector: 'div#search',
+  });
+  addFacetExclusion("is_hidden", "true");
+</script>
+
+<h1>Search:</h1>
+<div id="search"></div>
