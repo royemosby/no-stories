@@ -7,7 +7,7 @@ tags: ['condiment', 'sauce', 'spicy', 'mexican']
 
 ## Ingredients
 
-- 6 yellow hapanero (red ones work too)
+- 6 yellow habanero (red ones work too)
 - 2 large yellow heirloom tomatoes (it's just a theme- red tomatoes work too), or pint of tiny tomatoes
 - 1 small white onion
 - 4 cloves garlic
