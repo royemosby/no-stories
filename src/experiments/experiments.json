@@ -2,5 +2,6 @@
   "layout": "post.liquid",
   "tags": [
     "experiments"
-  ]
+  ],
+  "published": true
 }
