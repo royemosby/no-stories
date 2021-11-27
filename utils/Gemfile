@@ -1,9 +1,0 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-# gem "rails"
-gem "pry"
-gem "colorize"
-gem "dotenv"
-gem 'require_all',  '~> 1.0'
