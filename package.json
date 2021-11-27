@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "npx @11ty/eleventy --serve & gulp watch",
+    "serve": "npx @11ty/eleventy --serve & gulp watch",
     "debug": "DEBUG=Eleventy* eleventy",
     "newRecipe": "echo '---\ntitle: title\ndate: 2020-12-31 18:00:00 -4\ndescription: description\ntags: [strings]\n---' > src/drafts/new.md",
     "newConcept": "echo '---\ntitle: title\ndate: 2020-12-31 18:00:00 -4\ndescription: description\ntags: [strings]\n---' > src/drafts/new.md",
