@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Home
-description: Recipes up front and ready to use. This site dispenses with storytime and is an uncluttered
+description: Recipes up front and ready to use. This site dispenses with story time and is an uncluttered
   reference for the kitchen.
 pagination:
-  data: collections.posts
+  data: collections.publishedPosts
   size: 10
   reverse: true
   alias: posts
@@ -14,7 +14,7 @@ is_search_hidden: true
 <div class="center">
   <span>Recent entries</span>
 </div>
-{% for post in posts %} {% if post.url != false %}
+{% for post in collections.publishedPosts %} {% if post.url != false %}
 <a href="{{ post.url}}" class="card">
   <article class="home">
     <span>{{ post.date | date: '%a, %b %d, %Y' }}</span>
