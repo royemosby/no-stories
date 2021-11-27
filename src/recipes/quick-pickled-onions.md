@@ -22,7 +22,7 @@ tags: ["condiment", "onion"]
 
 1. Peel then cut onion into thin rings. Compress into mason jar.
 2. Put vinegar, sugar, and salt into a sauce pan and bring to a boil.
-3. Remove from heat when salt and sugar are dissoved in vinegar.
+3. Remove from heat when salt and sugar are dissolved in vinegar.
 4. Immediately pour over the onions in the mason jar.
-5. Allow unlidded mason jar and contents to come to room temperature on the counter.
-6. Use immediatly or put on lid and refrigerate for up to 2 weeks. These are best when allowed to refrigerate for a day or two before use.
+5. Allow un-lidded mason jar and contents to come to room temperature on the counter.
+6. Use immediately or put on lid and refrigerate for up to 2 weeks. These are best when allowed to refrigerate for a day or two before use.

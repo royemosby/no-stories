@@ -15,7 +15,7 @@ Inspired by the salsa verde recipe found in [My Mexico Kitchen](https://www.goog
 - 2 habaneros (if heat desired)
 - 1 small sweet yellow onion
 - 1/3 - 2/3 c water
-- palmful cilantro, 80-90% of the stems removed
+- palm-ful cilantro, 80-90% of the stems removed
 - 1 tsp salt or to taste
 
 ## Hardware
@@ -41,7 +41,7 @@ Inspired by the salsa verde recipe found in [My Mexico Kitchen](https://www.goog
 13. Prepare cilantro and place into blender or food processor.
 14. Pour in 1/3 c water and put 3 or 5 piece of tomatillo in.
 15. Blend on low to medium until cilantro leaves are flecks roughly the same size as crushed red pepper flakes.
-16. Add in all chilis then 2/3 of the remaining tomatillos.
+16. Add in all chilies then 2/3 of the remaining tomatillos.
 17. Blend on medium or high until all material is fairly well broken down and homogenous. Note: tomatillo seeds will not break down.
 18. While still blending, add remaining water in small amounts. Stop blending periodically to test for desired thickness. Factor in that salsa verde will thicken slightly when cold.
 19. Add in remaining tomatillos and blend lightly to get a chunkier salsa or thoroughly to have a smoother texture.

@@ -12,7 +12,7 @@ tags: ['bread', 'bun', 'brioche', 'sandwich', 'yeast leavened']
 - 3 tbsp warm milk
 - 1 c warm water
 - 2 tsp active dry yeast
-- 2 1/2 tbls sugar
+- 2 1/2 tbsp sugar
 - 2 large eggs, kept separate
 
 ### Dry Ingredients
@@ -20,7 +20,7 @@ tags: ['bread', 'bun', 'brioche', 'sandwich', 'yeast leavened']
 - 3 c bread flour
 - 1/3 c all-purpose flour
 - 1 1/2 tsp salt
-- 2 1/2 tbls unsalted butter, softened
+- 2 1/2 tbsp unsalted butter, softened
 - Sesame seeds (optional)
 
 ## Hardware
@@ -29,7 +29,7 @@ tags: ['bread', 'bun', 'brioche', 'sandwich', 'yeast leavened']
 - cooling rack
 - stand mixer (optional)
 - spray oil for bowl
-- parchement paper or sil pat
+- parchment paper or sil pat
 - large bowl
 - bench scraper- plastic and flexible is best
 

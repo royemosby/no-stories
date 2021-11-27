@@ -24,7 +24,7 @@ Original found at [I am Baker](https://iambaker.net/the-perfect-chocolate-cake/#
 
 1. Place butter and vanilla into a stand mixer and beat at medium-high for about three minutes. It will lighten and fluff by taking on a little air.
 2. In a separate bowl, sift together powdered sugar and cocoa.
-3. Mix salt to the bown with sugar and cocoa.
+3. Mix salt to the brown with sugar and cocoa.
 4. With mixer off, add in one cup of the powdered sugar and cocoa mixture.
 5. Turn mixer on to low and then slowly add in remaining powdered sugar mixture.
 6. While mixer is still on, add in milk.

@@ -13,7 +13,7 @@ Inspired by recipe found on [Epicurius](https://www.epicurious.com/).
 - 1 large onion
 - 2 garlic cloves
 - 8 oz center-cut bacon
-- 3 cans cannellini beans, drained and kept separate
+- 3 cans cannelloni beans, drained and kept separate
 - 1 1/2 qt chicken broth
 - 1 tbsp extra virgin olive oil (plus more for garnish)
 - 2 green onions (optional garnish)
@@ -37,8 +37,8 @@ Inspired by recipe found on [Epicurius](https://www.epicurious.com/).
     - Cut green portion of onions thinly, on a bias.
 1. Heat dutch oven to medium high and then cook bacon.
 1. Remove bacon when fully browned. Drain off all but 2 tbsp of the bacon fat.
-1. Add in onions and fennel. Sautee until fennel is tender, about 5-8 minutes.
+1. Add in onions and fennel. Saute until fennel is tender, about 5-8 minutes.
 1. Add in chicken broth and 1 can of beans. Simmer for 5 minutes.
-1. Take off heat. When safe to handle, use immersion blender on soup until smooth. If using a food processor, it may be a good idea to let it cool down even further, to a little above room temperature. Put into food processer in batches that the device can safely handle. Return to dutch oven.
-1. Add in remaining 2 cans of cannellini beans. Bring back up to simmer for 10 minutes.
+1. Take off heat. When safe to handle, use immersion blender on soup until smooth. If using a food processor, it may be a good idea to let it cool down even further, to a little above room temperature. Put into food processor in batches that the device can safely handle. Return to dutch oven.
+1. Add in remaining 2 cans of cannelloni beans. Bring back up to simmer for 10 minutes.
 1. Remove from heat and garnish generously with bacon and green onions. Drizzle on a small amount of olive oil- maybe spelling out your name so everyone knows who made this soup.

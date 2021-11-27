@@ -38,7 +38,7 @@ Elaboration of the chocolate cake recipe found on [I am Baker](https://iambaker.
 ## Instructions
 
 1. Prep cake pans
-   1. Grab a 2 square portions of parchement paper that are wider, in both directions, than the inner diameter of the cake pan.
+   1. Grab a 2 square portions of parchment paper that are wider, in both directions, than the inner diameter of the cake pan.
    2. Cut disks that fits neatly into the bottom of the cake pan. [The KITCHN](https://www.thekitchn.com/how-to-line-a-round-cake-pan-with-parchment-cooking-lessons-from-the-kitchn-78450) has a good explainer on this until I get one posted...
    3. Take a small amount butter and rub the inside surfaces of both pans.
    4. Smear an additional amount of butter on one side of each parchment disk.

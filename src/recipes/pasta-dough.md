@@ -23,7 +23,7 @@ description: a basic pasta dough that is good for ravioli, tagliatelle and other
 
 1. In a stand mixer bowl, combine AP and salt. [^hand]
 2. In a separate bowl, whisk together eggs and oil.
-3. Turn mixer on low and slowly drizzle in egg/oil misture.
+3. Turn mixer on low and slowly drizzle in egg/oil mixture.
 4. After dough comes together into a shaggy mass (1 minute or so after the last of the egg/oil goes in), stop the mixer and scrape the sides down.
 5. Turn mixer back to low and allow to knead for ten minutes.
 6. Turn dough out onto a lightly floured surface and give a few hand kneads.

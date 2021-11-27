@@ -1,6 +1,6 @@
 ---
 date: 2020-03-23
-title: giardierna
+title: giardiniera
 description: lacto-fermented vegetables for salad or an antipasto
 tags: ['pickle', 'lactic acid fermentation', 'fermentation', 'vegetables']
 ---

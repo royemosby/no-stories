@@ -41,7 +41,7 @@ This recipe focuses on the gnocchi itself. Figure out how you want to serve this
 9. Turn dough out onto floured surface and cut into 4 even portions.
 10. Put stock pot filled 3/4 full of water on to boil. Add 2 tbsp salt. It takes 4 batches to cook all the gnocchi using a stock pot. _Note: A quart sauce pan can do the job in 8 batches but the water will have to be changed after the 4th batch. It will cloud up and its handling characteristics will change for the worse._
 11. Keeping hands and surface slightly floured, roll out each quarter of the dough into an elongated cigar shape approximately 3/4" thick. Cut dough potions in half if it makes it easier to work with.
-12. Using bench scraper (or knife) cut pieces evenly about the width of the thumb's interphalangeal joint on your non-dominant hand. There is to need to be overly precise with it.
+12. Using bench scraper (or knife) cut pieces evenly about the width of the thumb's inter-phalangeal joint on your non-dominant hand. There is to need to be overly precise with it.
 13. Place cut pieces onto a large plate leaving space between each so they do not touch. Make a shallow dimple in each using the tip of your little finger. This is not necessary but helps the gnocchi retain more sauce.
 14. Carefully drop the pieces from 1 portion of the dough into the boiling water. Stir softly every 10 pieces or so to prevent sticking. They will hang out at the bottom of the pot until they are done cooking.
 15. Turn heat down to medium-high. You want to maintain a slight rolling boil just above a simmer.

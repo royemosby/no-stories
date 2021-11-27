@@ -34,5 +34,5 @@ Adaptation of the [Epicurious recipe](https://www.epicurious.com/recipes/member/
 3. Add in onions and cook until translucent- 2-3 minutes
 4. Add in garlic and cook for another 2 minutes
 5. Add in mushrooms and salt. Cook at medium until mushrooms start to release liquid.
-6. Add in parsley and blakc pepper.
+6. Add in parsley and black pepper.
 7. Raise temp to medium-high then saute until liquid has evaporated.
