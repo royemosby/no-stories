@@ -6,10 +6,9 @@ tags: pinned
 ---
 
 
-
 {% for definition in collections.glossarySortedAlpha %}
-<details>
-  <summary id="{{ definition.data.title | | replace: ' ', '-'}}">{{ definition.data.title }}</summary>
+<details id="{{ definition.data.title | | replace: ' ', '-'}}">
+  <summary>{{ definition.data.title }}</summary>
   <div>{{ definition.templateContent }}</div>
 </details>
 {% endfor %}
