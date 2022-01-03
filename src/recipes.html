@@ -13,7 +13,7 @@ is_search_hidden: true
 <div class="center">
   <span>Recent recipes</span>
 </div>
-{% for recipe in collections.publishedRecipes %}
+{% for recipe in recipes %}
 <a href="{{ recipe.url}}" class="card">
   <article>
     <h1>{{ recipe.data.title }}</h1>

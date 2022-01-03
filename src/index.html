@@ -14,7 +14,7 @@ is_search_hidden: true
 <div class="center">
   <span>Recent entries</span>
 </div>
-{% for post in collections.publishedPosts %} {% if post.url != false %}
+{% for post in posts %} {% if post.url != false %}
 <a href="{{ post.url}}" class="card">
   <article class="home">
     <span>{{ post.date | date: '%a, %b %d, %Y' }}</span>
