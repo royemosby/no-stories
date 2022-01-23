@@ -14,7 +14,7 @@ is_search_hidden: true
   <h4>(Web-based tools and experiments authored by yours truely)</h4>
 </div>
 {% for experiment in experiments %}
-<a href="{{ experiment.url}}" class="card">
+<a href="{{ experiment.url }}" class="card">
   <article>
     <h1>{{ experiment.data.title }}</h1>
     <span>{{ experiment.date | date: '%a, %b %d, %Y' }}</span>
@@ -24,4 +24,4 @@ is_search_hidden: true
 </a>
 {% endfor %}
 
-{% include pagination %}
+{% include "./pagination" %}

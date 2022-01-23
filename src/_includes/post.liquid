@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  {% include head %}
+  {% include "./head" %}
   <body>
-    {% include ie9 %}
-    <header>{% include header %}</header>
+    {% include "./ie9" %}
+    <header>{% include "./header" %}</header>
     <main>
       <h1>{{ title }}</h1>
       <span class="sub-heading"
@@ -11,7 +11,7 @@
       {{ content }}
     </main>
     <footer>
-      {% include footer %}
+      {% include "./footer" %}
     </footer>
     <script src="/scripts/app.js" defer></script>
   </body>
