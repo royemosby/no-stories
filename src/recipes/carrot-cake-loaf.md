@@ -2,7 +2,7 @@
 title: Carrot Cake Loaf
 date: 2020-11-08 18:00:00 -4
 description: Carrot cake done up in a loaf form. 10-12 servings.
-tags: ['dessert', 'carrot', 'cake', 'quick leavened']
+tags: ['dessert', 'carrot', 'cake', 'quick leavened', 'breakfast']
 ---
 
 ## Ingredients
@@ -44,6 +44,7 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 - parchment paper
 - medium micro-plane grater or fine hole grater
 - nonstick spray oil
+- 3 bowls: 1 for wet, 1 for dry, and 1 for shredded carrots
 
 ### Instructions
 
@@ -51,15 +52,15 @@ tags: ['dessert', 'carrot', 'cake', 'quick leavened']
 1. Line tin with parchment paper and spray inner surfaces with nonstick oil.
 1. Peel and shred carrots into a medium bowl.
 1. Mix all dry ingredients except walnuts and raisins into a large bowl.
-1. Combine eggs and brown sugar, whisking vigorously for 2 minutes.
-1. Whisk in oil.
-1. Switch to spatula and add in the dry mix, stirring until batter is well combined and smooth. It will be fairly thick in consistency.
-1. Fold in grated carrot, walnuts, and raisins.
-1. Transfer batter into prepared bread tin and spread out evenly.
-1. Bake for 50-60 minutes or until a cake tester inserted at the middle comes out clean.
-1. Allow to cool for 10 minutes in bread tin.
-1. Remove cake from tin and cool to room temperature.
-1. For icing, combine room temperature[^curdle] marscapone, 2 tbsp milk, vanilla, and confectioners sugar until smooth. Add additional milk until desired consistency is reached. We go with a thicker consistency where it sluggishly drizzles off the mixing utensil.
-1. Drizzle icing across the top of the cooled cake. Eat on the spot or refrigerate up to 5 days.
+2. Combine eggs, brown sugar, and vanilla in another bowl. Whisk vigorously for 2 minutes.
+3. Add in oil and whisk until incorporated.
+4. Switch to spatula and add in the dry mix, stirring until batter is well combined. It will be fairly thick in consistency.
+5. Fold in grated carrot, walnuts, and raisins.
+6. Transfer batter into prepared bread tin and spread out evenly.
+7. Bake for 50-60 minutes or until a cake tester inserted at the middle comes out clean.
+8. Allow to cool for 10 minutes in bread tin.
+9. Remove cake from tin and cool to room temperature.
+10. For icing, combine room temperature[^curdle] marscapone, 2 tbsp milk, vanilla, and confectioners sugar until smooth. Add additional milk until desired consistency is reached. We go with a thicker consistency where it sluggishly drizzles off the mixing utensil.
+11. Drizzle icing across the top of the cooled cake. Eat on the spot or refrigerate up to 5 days.
 
 [^curdle]: Marscapone tends to curdle when combined with ingredients of differing temperatures. If it does curdle, you can warm the mixture using the [double boiler](../../concepts/kitchen-glossary/#double-boil) technique or microwaving gently. After warmed, re-mix.
