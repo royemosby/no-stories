@@ -1,5 +1,5 @@
 ---
-date: 2020-01-18
+date: 2022-03-05
 title: pancakes
 description: Pancakes enough to feed 4 people with enough for leftovers
 tags: ['breakfast', 'pancakes', 'quick leavened']
