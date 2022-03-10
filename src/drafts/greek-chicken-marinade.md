@@ -1,6 +1,6 @@
 ---
 title: greek chicken marinade
-description: "A yogurt and oregano based marinade that is good for chicken. Marinates 1 lbs of meat.
+description: "A yogurt and oregano based marinade that is good for chicken. Marinates 1 lbs of meat."
 date: 2022-03-09
 tags: ["greek", "mediterranean", "yogurt", "oregano", "marinade"]
 ---
