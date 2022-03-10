@@ -9,16 +9,18 @@ tags: ['breakfast', 'pancakes', 'quick leavened']
 
 ### Dry
 
-- 3 cups all-purpose flour
+- 3 c all-purpose flour
 - 1 tbsp. + 1 tsp teaspoons baking powder
-- 2 teaspoon salt
-- 2 tablespoon white sugar
+- 2 tsp salt
+- 2 tbsp white sugar
+- 1 tbsp cinnamon
 
 ### Wet
 
-- 2 1/2 cups milk
-- 2 egg
-- 3 tablespoons butter, melted
+- 2 1/2 c milk
+- 2 eggs
+- 3 tbsp butter, melted
+- 2 tsp vanilla
 
 ## Directions
 

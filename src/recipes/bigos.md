@@ -17,7 +17,7 @@ tags: ['stew', 'soup', 'sausage', 'polish']
 - 24 oz mushrooms, variety
 - 4 medium onions
 - 4 apples
-- 2 bls canned crushed tomatoes
+- 2 lbs canned crushed tomatoes
 - 1/2 c pitted prunes
 - 16 oz brown ale (or beef stock)
 - 4 oz dry red wine
