@@ -41,15 +41,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection('publishedPosts', function (collection) {
-    return collection.getFilteredByTag('posts').sort((a,b) =>{
-      return b.date - a.date
-    }).filter((r)=> r.data.published === true);
+    return collection.getFilteredByTag('posts').filter((r)=> r.data.published === true);
   })
 
   eleventyConfig.addCollection('publishedRecipes', function (collection) {
-    return collection.getFilteredByTag('recipes').sort((a,b) =>{
-      return b.date - a.date
-    }).filter((r)=> r.data.published === true);
+    return collection.getFilteredByTag('recipes').filter((r)=> r.data.published === true);
   })
 
   return {
