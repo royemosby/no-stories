@@ -1,7 +1,7 @@
 ---
 date: 2020-03-15
 title: gnocchi
-description: potato-based dumpling that can be used as a pasta. This recipe serves four.
+description: Potato-based dumpling that can be used as a pasta. This recipe serves four.
 tags: ['lunch', 'dinner', 'pasta', 'dumpling', 'italian', 'potato']
 ---
 

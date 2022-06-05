@@ -1,7 +1,7 @@
 ---
 title: chocolate cake
 date: 2021-06-02 18:00:00 -4
-description: A super moist cake recipe that makes a typical two-tiered 10" round cake
+description: Super moist cake recipe that makes a typical two-tiered 10" round cake
 tags: ['dessert', 'chocolate', 'cake']
 ---
 

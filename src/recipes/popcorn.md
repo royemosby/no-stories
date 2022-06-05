@@ -1,6 +1,6 @@
 ---
 title: popcorn
-description: process to make plain ol' popcorn. Makes 5 liters
+description: Process to make plain ol' popcorn. Makes 5 liters
 date: 2022-05-02
 ---
 

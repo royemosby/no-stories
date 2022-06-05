@@ -1,7 +1,7 @@
 ---
 date: 2021-12-31
 title: bigos (polish hunter's stew)
-description: hearty stew that gets better the longer it stews. 10-15 servings
+description: Hearty stew that gets better the longer it stews. 10-15 servings.
 tags: ['stew', 'soup', 'sausage', 'polish']
 ---
 
