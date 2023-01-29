@@ -1,0 +1,26 @@
+---
+layout: default
+title: notes
+description: A list of shorthand references and notes.
+pagination:
+  data: collections.notesSortedAlpha
+  size: 10
+  alias: notes
+is_search_hidden: true
+---
+
+<div class="center">
+  <span>Recent notes</span>
+</div>
+{%- for notes in notes -%}
+<a href="{{ notes.url}}" class="card">
+  <article>
+    <h1>{{ notes.data.title }}</h1>
+    <span>{{ notes.date | date: '%a, %b %d, %Y' }} {{notes.data.publish}}</span>
+
+    <!-- <p>{{ notes.data.description }}</p> -->
+  </article>
+</a>
+{% endfor %}
+
+{% include "./pagination" %}
